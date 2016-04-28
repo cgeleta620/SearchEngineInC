@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "stop_word.h"
-//#include "memwatch.h"
+#include "memwatch.h"
 
 typedef struct stop_node Stop_node;
 

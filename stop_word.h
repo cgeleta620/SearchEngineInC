@@ -9,7 +9,7 @@
 #include <string.h>
 #include <stdio.h>
 
-//#include "memwatch.h"
+#include "memwatch.h"
 
 struct stop_word *create_stop_word(char *word);
 

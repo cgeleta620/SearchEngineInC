@@ -9,7 +9,7 @@
 #include "hash_table.h"
 #include "stop_table.h"
 #include "stop_word.h"
-//#include "memwatch.h"
+#include "memwatch.h"
 
 
 #include <stdio.h>
@@ -19,9 +19,9 @@
 
 void process(int argc, char *argv[]);
 
-void create_stop_table(const char *stop_file, Stop_table *stop_table);
+Stop_table *create_stop_table(char *stop_file, Stop_table *stop_table);
 
-int str_cmp( const void* a, const void* b);
+int str_cmp(const void* a, const void* b);
 
 #endif //PA6_CLIENT_H
 

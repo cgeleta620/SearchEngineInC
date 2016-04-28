@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <search.h>
 #include "linked_list.h"
-//#include "memwatch.h"
+#include "memwatch.h"
 
 typedef struct table Table;
 

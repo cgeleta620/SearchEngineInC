@@ -1,0 +1,1136 @@
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Thu Apr 28 14:56:06 2016
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Thu Apr 28 14:56:29 2016
+
+unfreed: <141> entry.c(21), 88000 bytes at 0x232a7d0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <140> entry.c(17), 6 bytes at 0x232a770  	{73 68 6F 65 73 00 .. .. .. .. .. .. .. .. .. .. shoes.}
+unfreed: <139> entry.c(16), 16 bytes at 0x232a710  	{70 A7 32 02 00 00 00 00 D0 A7 32 02 00 00 00 00 p.2.......2.....}
+unfreed: <138> entry.c(21), 88000 bytes at 0x2314ec0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <137> entry.c(17), 5 bytes at 0x2314e60  	{62 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. boat.}
+unfreed: <136> entry.c(16), 16 bytes at 0x2314e00  	{60 4E 31 02 00 00 00 00 C0 4E 31 02 00 00 00 00 `N1......N1.....}
+unfreed: <135> entry.c(21), 88000 bytes at 0x22ff5b0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <134> entry.c(17), 5 bytes at 0x22ff550  	{63 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. coat.}
+unfreed: <133> entry.c(16), 16 bytes at 0x22ff4f0  	{50 F5 2F 02 00 00 00 00 B0 F5 2F 02 00 00 00 00 P./......./.....}
+unfreed: <132> entry.c(21), 88000 bytes at 0x22e9ca0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <131> entry.c(17), 5 bytes at 0x22e9c40  	{72 61 69 6E 00 .. .. .. .. .. .. .. .. .. .. .. rain.}
+unfreed: <130> entry.c(16), 16 bytes at 0x22e9be0  	{40 9C 2E 02 00 00 00 00 A0 9C 2E 02 00 00 00 00 @...............}
+unfreed: <129> entry.c(21), 88000 bytes at 0x22d4390  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <128> entry.c(17), 8 bytes at 0x22d4330  	{77 65 61 72 69 6E 67 00 .. .. .. .. .. .. .. .. wearing.}
+unfreed: <127> entry.c(16), 16 bytes at 0x22d42d0  	{30 43 2D 02 00 00 00 00 90 43 2D 02 00 00 00 00 0C-......C-.....}
+unfreed: <126> entry.c(21), 88000 bytes at 0x22bea80  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <125> entry.c(17), 2 bytes at 0x22bea20  	{6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. m.}
+unfreed: <124> entry.c(16), 16 bytes at 0x22be9c0  	{20 EA 2B 02 00 00 00 00 80 EA 2B 02 00 00 00 00  .+.......+.....}
+unfreed: <123> entry.c(21), 88000 bytes at 0x22a9170  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <122> entry.c(17), 6 bytes at 0x22a9110  	{73 75 6E 6E 79 00 .. .. .. .. .. .. .. .. .. .. sunny.}
+unfreed: <121> entry.c(16), 16 bytes at 0x22a90b0  	{10 91 2A 02 00 00 00 00 70 91 2A 02 00 00 00 00 ..*.....p.*.....}
+unfreed: <120> entry.c(21), 88000 bytes at 0x2293860  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <119> entry.c(17), 4 bytes at 0x2293800  	{77 61 73 00 .. .. .. .. .. .. .. .. .. .. .. .. was.}
+unfreed: <118> entry.c(16), 16 bytes at 0x22937a0  	{00 38 29 02 00 00 00 00 60 38 29 02 00 00 00 00 .8).....`8).....}
+unfreed: <117> entry.c(21), 88000 bytes at 0x227df50  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <116> entry.c(17), 10 bytes at 0x227def0  	{79 65 73 74 65 72 64 61 79 00 .. .. .. .. .. .. yesterday.}
+unfreed: <115> entry.c(16), 16 bytes at 0x227de90  	{F0 DE 27 02 00 00 00 00 50 DF 27 02 00 00 00 00 ..'.....P.'.....}
+unfreed: <114> entry.c(21), 88000 bytes at 0x2268640  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <113> entry.c(17), 4 bytes at 0x22685e0  	{6F 75 74 00 .. .. .. .. .. .. .. .. .. .. .. .. out.}
+unfreed: <112> entry.c(16), 16 bytes at 0x2268580  	{E0 85 26 02 00 00 00 00 40 86 26 02 00 00 00 00 ..&.....@.&.....}
+unfreed: <111> entry.c(21), 88000 bytes at 0x2252d30  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <110> entry.c(17), 8 bytes at 0x2252cd0  	{72 61 69 6E 69 6E 67 00 .. .. .. .. .. .. .. .. raining.}
+unfreed: <109> entry.c(16), 16 bytes at 0x2252c70  	{D0 2C 25 02 00 00 00 00 30 2D 25 02 00 00 00 00 .,%.....0-%.....}
+unfreed: <108> entry.c(21), 88000 bytes at 0x223d420  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <107> entry.c(17), 3 bytes at 0x223d3c0  	{69 74 00 .. .. .. .. .. .. .. .. .. .. .. .. .. it.}
+unfreed: <106> entry.c(16), 16 bytes at 0x223d360  	{C0 D3 23 02 00 00 00 00 20 D4 23 02 00 00 00 00 ..#..... .#.....}
+unfreed: <105> entry.c(21), 88000 bytes at 0x2227b10  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <104> entry.c(17), 6 bytes at 0x2227ab0  	{57 57 54 57 4F 00 .. .. .. .. .. .. .. .. .. .. WWTWO.}
+unfreed: <103> entry.c(16), 16 bytes at 0x2227a50  	{B0 7A 22 02 00 00 00 00 10 7B 22 02 00 00 00 00 .z"......{".....}
+unfreed: <102> entry.c(21), 88000 bytes at 0x2212200  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <101> entry.c(17), 6 bytes at 0x22121a0  	{61 62 6F 75 74 00 .. .. .. .. .. .. .. .. .. .. about.}
+unfreed: <100> entry.c(16), 16 bytes at 0x2212140  	{A0 21 21 02 00 00 00 00 00 22 21 02 00 00 00 00 .!!......"!.....}
+unfreed: <99> entry.c(21), 88000 bytes at 0x21fc8f0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <98> entry.c(17), 8 bytes at 0x21fc890  	{74 61 6C 6B 69 6E 67 00 .. .. .. .. .. .. .. .. talking.}
+unfreed: <97> entry.c(16), 16 bytes at 0x21fc830  	{90 C8 1F 02 00 00 00 00 F0 C8 1F 02 00 00 00 00 ................}
+unfreed: <96> entry.c(21), 88000 bytes at 0x21e6fe0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <95> entry.c(17), 6 bytes at 0x21e6f80  	{63 6C 61 73 73 00 .. .. .. .. .. .. .. .. .. .. class.}
+unfreed: <94> entry.c(16), 16 bytes at 0x21e6f20  	{80 6F 1E 02 00 00 00 00 E0 6F 1E 02 00 00 00 00 .o.......o......}
+unfreed: <93> entry.c(21), 88000 bytes at 0x21d16d0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <92> entry.c(17), 8 bytes at 0x21d1670  	{68 69 73 74 6F 72 79 00 .. .. .. .. .. .. .. .. history.}
+unfreed: <91> entry.c(16), 16 bytes at 0x21d1610  	{70 16 1D 02 00 00 00 00 D0 16 1D 02 00 00 00 00 p...............}
+unfreed: <90> entry.c(21), 88000 bytes at 0x21bbdc0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <89> entry.c(17), 4 bytes at 0x21bbd60  	{66 6F 72 00 .. .. .. .. .. .. .. .. .. .. .. .. for.}
+unfreed: <88> entry.c(16), 16 bytes at 0x21bbd00  	{60 BD 1B 02 00 00 00 00 C0 BD 1B 02 00 00 00 00 `...............}
+unfreed: <87> entry.c(21), 88000 bytes at 0x21a64b0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <86> entry.c(17), 10 bytes at 0x21a6450  	{63 6C 61 73 73 72 6F 6F 6D 00 .. .. .. .. .. .. classroom.}
+unfreed: <85> entry.c(16), 16 bytes at 0x21a63f0  	{50 64 1A 02 00 00 00 00 B0 64 1A 02 00 00 00 00 Pd.......d......}
+unfreed: <84> entry.c(21), 88000 bytes at 0x2190ba0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <83> entry.c(17), 3 bytes at 0x2190b40  	{69 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. in.}
+unfreed: <82> entry.c(16), 16 bytes at 0x2190ae0  	{40 0B 19 02 00 00 00 00 A0 0B 19 02 00 00 00 00 @...............}
+unfreed: <81> entry.c(21), 88000 bytes at 0x217b290  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <80> entry.c(17), 3 bytes at 0x217b230  	{61 6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. am.}
+unfreed: <79> entry.c(16), 16 bytes at 0x217b1d0  	{30 B2 17 02 00 00 00 00 90 B2 17 02 00 00 00 00 0...............}
+unfreed: <78> entry.c(21), 88000 bytes at 0x2165980  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <77> entry.c(17), 2 bytes at 0x2165920  	{49 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. I.}
+unfreed: <76> entry.c(16), 16 bytes at 0x21658c0  	{20 59 16 02 00 00 00 00 80 59 16 02 00 00 00 00  Y.......Y......}
+unfreed: <75> entry.c(21), 88000 bytes at 0x2150070  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <74> entry.c(17), 5 bytes at 0x2150010  	{6E 69 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. nine.}
+unfreed: <73> entry.c(16), 16 bytes at 0x214ffb0  	{10 00 15 02 00 00 00 00 70 00 15 02 00 00 00 00 ........p.......}
+unfreed: <72> entry.c(21), 88000 bytes at 0x213a760  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <71> entry.c(17), 5 bytes at 0x213a700  	{66 6F 75 72 00 .. .. .. .. .. .. .. .. .. .. .. four.}
+unfreed: <70> entry.c(16), 16 bytes at 0x213a6a0  	{00 A7 13 02 00 00 00 00 60 A7 13 02 00 00 00 00 ........`.......}
+unfreed: <69> entry.c(21), 88000 bytes at 0x2124e50  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <68> entry.c(17), 5 bytes at 0x2124df0  	{66 69 76 65 00 .. .. .. .. .. .. .. .. .. .. .. five.}
+unfreed: <67> entry.c(16), 16 bytes at 0x2124d90  	{F0 4D 12 02 00 00 00 00 50 4E 12 02 00 00 00 00 .M......PN......}
+unfreed: <66> entry.c(21), 88000 bytes at 0x210f540  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <65> entry.c(17), 4 bytes at 0x210f4e0  	{6F 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. .. one.}
+unfreed: <64> entry.c(16), 16 bytes at 0x210f480  	{E0 F4 10 02 00 00 00 00 40 F5 10 02 00 00 00 00 ........@.......}
+unfreed: <63> entry.c(21), 88000 bytes at 0x20f9c30  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <62> entry.c(17), 5 bytes at 0x20f9bd0  	{4A 75 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. June.}
+unfreed: <61> entry.c(16), 16 bytes at 0x20f9b70  	{D0 9B 0F 02 00 00 00 00 30 9C 0F 02 00 00 00 00 ........0.......}
+unfreed: <60> entry.c(21), 88000 bytes at 0x20e4320  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <59> entry.c(17), 6 bytes at 0x20e42c0  	{74 6F 64 61 79 00 .. .. .. .. .. .. .. .. .. .. today.}
+unfreed: <58> entry.c(16), 16 bytes at 0x20e4260  	{C0 42 0E 02 00 00 00 00 20 43 0E 02 00 00 00 00 .B...... C......}
+unfreed: <57> entry.c(21), 88000 bytes at 0x20cea10  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <56> entry.c(17), 3 bytes at 0x20ce9b0  	{69 73 00 .. .. .. .. .. .. .. .. .. .. .. .. .. is.}
+unfreed: <55> entry.c(16), 16 bytes at 0x20ce950  	{B0 E9 0C 02 00 00 00 00 10 EA 0C 02 00 00 00 00 ................}
+unfreed: <54> entry.c(21), 88000 bytes at 0x20b9100  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <53> entry.c(17), 4 bytes at 0x20b90a0  	{64 61 79 00 .. .. .. .. .. .. .. .. .. .. .. .. day.}
+unfreed: <52> entry.c(16), 16 bytes at 0x20b9040  	{A0 90 0B 02 00 00 00 00 00 91 0B 02 00 00 00 00 ................}
+unfreed: <51> entry.c(21), 88000 bytes at 0x20a37f0  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <50> entry.c(17), 3 bytes at 0x20a3790  	{6F 66 00 .. .. .. .. .. .. .. .. .. .. .. .. .. of.}
+unfreed: <49> entry.c(16), 16 bytes at 0x20a3730  	{90 37 0A 02 00 00 00 00 F0 37 0A 02 00 00 00 00 .7.......7......}
+unfreed: <48> entry.c(21), 88000 bytes at 0x208df20  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <47> entry.c(17), 5 bytes at 0x208dec0  	{77 6F 72 64 00 .. .. .. .. .. .. .. .. .. .. .. word.}
+unfreed: <46> entry.c(16), 16 bytes at 0x208ce20  	{C0 DE 08 02 00 00 00 00 20 DF 08 02 00 00 00 00 ........ .......}
+unfreed: <45> client.c(54), 257 bytes at 0x208ccc0  	{73 68 6F 65 73 00 67 00 79 00 00 00 00 00 00 00 shoes.g.y.......}
+unfreed: <44> client.c(53), 6 bytes at 0x208cc60  	{31 2E 74 78 74 00 .. .. .. .. .. .. .. .. .. .. 1.txt.}
+unfreed: <43> stop_linked_list.c(14), 16 bytes at 0x208dc20  	{00 00 00 00 00 00 00 00 C0 DB 08 02 00 00 00 00 ................}
+unfreed: <42> stop_linked_list.c(40), 16 bytes at 0x208dbc0  	{00 DB 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <41> stop_word.c(15), 4 bytes at 0x208db60  	{61 72 65 00 .. .. .. .. .. .. .. .. .. .. .. .. are.}
+unfreed: <40> stop_word.c(13), 8 bytes at 0x208db00  	{60 DB 08 02 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <39> stop_linked_list.c(14), 16 bytes at 0x208daa0  	{00 00 00 00 00 00 00 00 40 DA 08 02 00 00 00 00 ........@.......}
+unfreed: <38> stop_linked_list.c(40), 16 bytes at 0x208da40  	{80 D9 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <37> stop_word.c(15), 3 bytes at 0x208d9e0  	{77 65 00 .. .. .. .. .. .. .. .. .. .. .. .. .. we.}
+unfreed: <36> stop_word.c(13), 8 bytes at 0x208d980  	{E0 D9 08 02 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <35> stop_linked_list.c(14), 16 bytes at 0x208d920  	{00 00 00 00 00 00 00 00 C0 D8 08 02 00 00 00 00 ................}
+unfreed: <34> stop_linked_list.c(40), 16 bytes at 0x208d8c0  	{00 D8 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <33> stop_word.c(15), 3 bytes at 0x208d860  	{67 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. go.}
+unfreed: <32> stop_word.c(13), 8 bytes at 0x208d800  	{60 D8 08 02 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <31> stop_linked_list.c(14), 16 bytes at 0x208d7a0  	{00 00 00 00 00 00 00 00 40 D7 08 02 00 00 00 00 ........@.......}
+unfreed: <30> stop_linked_list.c(40), 16 bytes at 0x208d740  	{80 D6 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <29> stop_word.c(15), 4 bytes at 0x208d6e0  	{61 6E 64 00 .. .. .. .. .. .. .. .. .. .. .. .. and.}
+unfreed: <28> stop_word.c(13), 8 bytes at 0x208d680  	{E0 D6 08 02 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <27> stop_linked_list.c(14), 16 bytes at 0x208d620  	{00 00 00 00 00 00 00 00 C0 D5 08 02 00 00 00 00 ................}
+unfreed: <26> stop_linked_list.c(40), 16 bytes at 0x208d5c0  	{00 D5 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <25> stop_word.c(15), 3 bytes at 0x208d560  	{61 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. an.}
+unfreed: <24> stop_word.c(13), 8 bytes at 0x208d500  	{60 D5 08 02 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <23> stop_linked_list.c(14), 16 bytes at 0x208d4a0  	{00 00 00 00 00 00 00 00 40 D4 08 02 00 00 00 00 ........@.......}
+unfreed: <22> stop_linked_list.c(40), 16 bytes at 0x208d440  	{80 D3 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <21> stop_word.c(15), 2 bytes at 0x208d3e0  	{61 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. a.}
+unfreed: <20> stop_word.c(13), 8 bytes at 0x208d380  	{E0 D3 08 02 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <19> stop_linked_list.c(14), 16 bytes at 0x208d320  	{00 00 00 00 00 00 00 00 C0 D2 08 02 00 00 00 00 ................}
+unfreed: <18> stop_linked_list.c(40), 16 bytes at 0x208d2c0  	{00 D2 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <17> stop_word.c(15), 3 bytes at 0x208d260  	{74 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. to.}
+unfreed: <16> stop_word.c(13), 8 bytes at 0x208d200  	{60 D2 08 02 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <15> stop_linked_list.c(14), 16 bytes at 0x208d1a0  	{00 00 00 00 00 00 00 00 40 D1 08 02 00 00 00 00 ........@.......}
+unfreed: <14> stop_linked_list.c(40), 16 bytes at 0x208d140  	{80 D0 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <13> stop_word.c(15), 4 bytes at 0x208d0e0  	{79 65 73 00 .. .. .. .. .. .. .. .. .. .. .. .. yes.}
+unfreed: <12> stop_word.c(13), 8 bytes at 0x208d080  	{E0 D0 08 02 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <11> stop_linked_list.c(14), 16 bytes at 0x208d020  	{00 00 00 00 00 00 00 00 C0 CF 08 02 00 00 00 00 ................}
+unfreed: <10> stop_linked_list.c(40), 16 bytes at 0x208cfc0  	{00 CF 08 02 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <9> stop_word.c(15), 3 bytes at 0x208cf60  	{6E 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. no.}
+unfreed: <8> stop_word.c(13), 8 bytes at 0x208cf00  	{60 CF 08 02 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <7> stop_linked_list.c(14), 16 bytes at 0x208cea0  	{00 00 00 00 00 00 00 00 F0 6A 07 02 00 00 00 00 .........j......}
+unfreed: <6> stop_linked_list.c(40), 16 bytes at 0x2076af0  	{30 6A 07 02 00 00 00 00 00 00 00 00 00 00 00 00 0j..............}
+unfreed: <5> stop_word.c(15), 4 bytes at 0x2076a90  	{74 68 65 00 .. .. .. .. .. .. .. .. .. .. .. .. the.}
+unfreed: <4> stop_word.c(13), 8 bytes at 0x2076a30  	{90 6A 07 02 00 00 00 00 .. .. .. .. .. .. .. .. .j......}
+unfreed: <3> client.c(35), 88000 bytes at 0x2077450  	{60 CC 08 02 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <2> hash_table.c(22), 560000 bytes at 0x7f99c07f1050  	{00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <1> hash_table.c(17), 16 bytes at 0x20769d0  	{70 11 01 00 FE FE FE FE 50 10 7F C0 99 7F 00 00 p.......P.......}
+
+Memory usage statistics (global):
+ N)umber of allocations made: 141
+ L)argest memory usage      : 3465391
+ T)otal of all alloc() calls: 3465391
+ U)nfreed bytes totals      : 3465391
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Thu Apr 28 14:56:35 2016
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Thu Apr 28 14:56:49 2016
+
+unfreed: <141> entry.c(21), 88000 bytes at 0x20ec7b0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <140> entry.c(17), 6 bytes at 0x20ec750  	{73 68 6F 65 73 00 .. .. .. .. .. .. .. .. .. .. shoes.}
+unfreed: <139> entry.c(16), 16 bytes at 0x20ec6f0  	{50 C7 0E 02 00 00 00 00 B0 C7 0E 02 00 00 00 00 P...............}
+unfreed: <138> entry.c(21), 88000 bytes at 0x20d6ea0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <137> entry.c(17), 5 bytes at 0x20d6e40  	{62 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. boat.}
+unfreed: <136> entry.c(16), 16 bytes at 0x20d6de0  	{40 6E 0D 02 00 00 00 00 A0 6E 0D 02 00 00 00 00 @n.......n......}
+unfreed: <135> entry.c(21), 88000 bytes at 0x20c1590  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <134> entry.c(17), 5 bytes at 0x20c1530  	{63 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. coat.}
+unfreed: <133> entry.c(16), 16 bytes at 0x20c14d0  	{30 15 0C 02 00 00 00 00 90 15 0C 02 00 00 00 00 0...............}
+unfreed: <132> entry.c(21), 88000 bytes at 0x20abc80  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <131> entry.c(17), 5 bytes at 0x20abc20  	{72 61 69 6E 00 .. .. .. .. .. .. .. .. .. .. .. rain.}
+unfreed: <130> entry.c(16), 16 bytes at 0x20abbc0  	{20 BC 0A 02 00 00 00 00 80 BC 0A 02 00 00 00 00  ...............}
+unfreed: <129> entry.c(21), 88000 bytes at 0x2096370  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <128> entry.c(17), 8 bytes at 0x2096310  	{77 65 61 72 69 6E 67 00 .. .. .. .. .. .. .. .. wearing.}
+unfreed: <127> entry.c(16), 16 bytes at 0x20962b0  	{10 63 09 02 00 00 00 00 70 63 09 02 00 00 00 00 .c......pc......}
+unfreed: <126> entry.c(21), 88000 bytes at 0x2080a60  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <125> entry.c(17), 2 bytes at 0x2080a00  	{6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. m.}
+unfreed: <124> entry.c(16), 16 bytes at 0x20809a0  	{00 0A 08 02 00 00 00 00 60 0A 08 02 00 00 00 00 ........`.......}
+unfreed: <123> entry.c(21), 88000 bytes at 0x206b150  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <122> entry.c(17), 6 bytes at 0x206b0f0  	{73 75 6E 6E 79 00 .. .. .. .. .. .. .. .. .. .. sunny.}
+unfreed: <121> entry.c(16), 16 bytes at 0x206b090  	{F0 B0 06 02 00 00 00 00 50 B1 06 02 00 00 00 00 ........P.......}
+unfreed: <120> entry.c(21), 88000 bytes at 0x2055840  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <119> entry.c(17), 4 bytes at 0x20557e0  	{77 61 73 00 .. .. .. .. .. .. .. .. .. .. .. .. was.}
+unfreed: <118> entry.c(16), 16 bytes at 0x2055780  	{E0 57 05 02 00 00 00 00 40 58 05 02 00 00 00 00 .W......@X......}
+unfreed: <117> entry.c(21), 88000 bytes at 0x203ff30  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <116> entry.c(17), 10 bytes at 0x203fed0  	{79 65 73 74 65 72 64 61 79 00 .. .. .. .. .. .. yesterday.}
+unfreed: <115> entry.c(16), 16 bytes at 0x203fe70  	{D0 FE 03 02 00 00 00 00 30 FF 03 02 00 00 00 00 ........0.......}
+unfreed: <114> entry.c(21), 88000 bytes at 0x202a620  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <113> entry.c(17), 4 bytes at 0x202a5c0  	{6F 75 74 00 .. .. .. .. .. .. .. .. .. .. .. .. out.}
+unfreed: <112> entry.c(16), 16 bytes at 0x202a560  	{C0 A5 02 02 00 00 00 00 20 A6 02 02 00 00 00 00 ........ .......}
+unfreed: <111> entry.c(21), 88000 bytes at 0x2014d10  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <110> entry.c(17), 8 bytes at 0x2014cb0  	{72 61 69 6E 69 6E 67 00 .. .. .. .. .. .. .. .. raining.}
+unfreed: <109> entry.c(16), 16 bytes at 0x2014c50  	{B0 4C 01 02 00 00 00 00 10 4D 01 02 00 00 00 00 .L.......M......}
+unfreed: <108> entry.c(21), 88000 bytes at 0x1fff400  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <107> entry.c(17), 3 bytes at 0x1fff3a0  	{69 74 00 .. .. .. .. .. .. .. .. .. .. .. .. .. it.}
+unfreed: <106> entry.c(16), 16 bytes at 0x1fff340  	{A0 F3 FF 01 00 00 00 00 00 F4 FF 01 00 00 00 00 ................}
+unfreed: <105> entry.c(21), 88000 bytes at 0x1fe9af0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <104> entry.c(17), 6 bytes at 0x1fe9a90  	{57 57 54 57 4F 00 .. .. .. .. .. .. .. .. .. .. WWTWO.}
+unfreed: <103> entry.c(16), 16 bytes at 0x1fe9a30  	{90 9A FE 01 00 00 00 00 F0 9A FE 01 00 00 00 00 ................}
+unfreed: <102> entry.c(21), 88000 bytes at 0x1fd41e0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <101> entry.c(17), 6 bytes at 0x1fd4180  	{61 62 6F 75 74 00 .. .. .. .. .. .. .. .. .. .. about.}
+unfreed: <100> entry.c(16), 16 bytes at 0x1fd4120  	{80 41 FD 01 00 00 00 00 E0 41 FD 01 00 00 00 00 .A.......A......}
+unfreed: <99> entry.c(21), 88000 bytes at 0x1fbe8d0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <98> entry.c(17), 8 bytes at 0x1fbe870  	{74 61 6C 6B 69 6E 67 00 .. .. .. .. .. .. .. .. talking.}
+unfreed: <97> entry.c(16), 16 bytes at 0x1fbe810  	{70 E8 FB 01 00 00 00 00 D0 E8 FB 01 00 00 00 00 p...............}
+unfreed: <96> entry.c(21), 88000 bytes at 0x1fa8fc0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <95> entry.c(17), 6 bytes at 0x1fa8f60  	{63 6C 61 73 73 00 .. .. .. .. .. .. .. .. .. .. class.}
+unfreed: <94> entry.c(16), 16 bytes at 0x1fa8f00  	{60 8F FA 01 00 00 00 00 C0 8F FA 01 00 00 00 00 `...............}
+unfreed: <93> entry.c(21), 88000 bytes at 0x1f936b0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <92> entry.c(17), 8 bytes at 0x1f93650  	{68 69 73 74 6F 72 79 00 .. .. .. .. .. .. .. .. history.}
+unfreed: <91> entry.c(16), 16 bytes at 0x1f935f0  	{50 36 F9 01 00 00 00 00 B0 36 F9 01 00 00 00 00 P6.......6......}
+unfreed: <90> entry.c(21), 88000 bytes at 0x1f7dda0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <89> entry.c(17), 4 bytes at 0x1f7dd40  	{66 6F 72 00 .. .. .. .. .. .. .. .. .. .. .. .. for.}
+unfreed: <88> entry.c(16), 16 bytes at 0x1f7dce0  	{40 DD F7 01 00 00 00 00 A0 DD F7 01 00 00 00 00 @...............}
+unfreed: <87> entry.c(21), 88000 bytes at 0x1f68490  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <86> entry.c(17), 10 bytes at 0x1f68430  	{63 6C 61 73 73 72 6F 6F 6D 00 .. .. .. .. .. .. classroom.}
+unfreed: <85> entry.c(16), 16 bytes at 0x1f683d0  	{30 84 F6 01 00 00 00 00 90 84 F6 01 00 00 00 00 0...............}
+unfreed: <84> entry.c(21), 88000 bytes at 0x1f52b80  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <83> entry.c(17), 3 bytes at 0x1f52b20  	{69 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. in.}
+unfreed: <82> entry.c(16), 16 bytes at 0x1f52ac0  	{20 2B F5 01 00 00 00 00 80 2B F5 01 00 00 00 00  +.......+......}
+unfreed: <81> entry.c(21), 88000 bytes at 0x1f3d270  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <80> entry.c(17), 3 bytes at 0x1f3d210  	{61 6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. am.}
+unfreed: <79> entry.c(16), 16 bytes at 0x1f3d1b0  	{10 D2 F3 01 00 00 00 00 70 D2 F3 01 00 00 00 00 ........p.......}
+unfreed: <78> entry.c(21), 88000 bytes at 0x1f27960  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <77> entry.c(17), 2 bytes at 0x1f27900  	{49 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. I.}
+unfreed: <76> entry.c(16), 16 bytes at 0x1f278a0  	{00 79 F2 01 00 00 00 00 60 79 F2 01 00 00 00 00 .y......`y......}
+unfreed: <75> entry.c(21), 88000 bytes at 0x1f12050  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <74> entry.c(17), 5 bytes at 0x1f11ff0  	{6E 69 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. nine.}
+unfreed: <73> entry.c(16), 16 bytes at 0x1f11f90  	{F0 1F F1 01 00 00 00 00 50 20 F1 01 00 00 00 00 ........P ......}
+unfreed: <72> entry.c(21), 88000 bytes at 0x1efc740  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <71> entry.c(17), 5 bytes at 0x1efc6e0  	{66 6F 75 72 00 .. .. .. .. .. .. .. .. .. .. .. four.}
+unfreed: <70> entry.c(16), 16 bytes at 0x1efc680  	{E0 C6 EF 01 00 00 00 00 40 C7 EF 01 00 00 00 00 ........@.......}
+unfreed: <69> entry.c(21), 88000 bytes at 0x1ee6e30  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <68> entry.c(17), 5 bytes at 0x1ee6dd0  	{66 69 76 65 00 .. .. .. .. .. .. .. .. .. .. .. five.}
+unfreed: <67> entry.c(16), 16 bytes at 0x1ee6d70  	{D0 6D EE 01 00 00 00 00 30 6E EE 01 00 00 00 00 .m......0n......}
+unfreed: <66> entry.c(21), 88000 bytes at 0x1ed1520  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <65> entry.c(17), 4 bytes at 0x1ed14c0  	{6F 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. .. one.}
+unfreed: <64> entry.c(16), 16 bytes at 0x1ed1460  	{C0 14 ED 01 00 00 00 00 20 15 ED 01 00 00 00 00 ........ .......}
+unfreed: <63> entry.c(21), 88000 bytes at 0x1ebbc10  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <62> entry.c(17), 5 bytes at 0x1ebbbb0  	{4A 75 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. June.}
+unfreed: <61> entry.c(16), 16 bytes at 0x1ebbb50  	{B0 BB EB 01 00 00 00 00 10 BC EB 01 00 00 00 00 ................}
+unfreed: <60> entry.c(21), 88000 bytes at 0x1ea6300  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <59> entry.c(17), 6 bytes at 0x1ea62a0  	{74 6F 64 61 79 00 .. .. .. .. .. .. .. .. .. .. today.}
+unfreed: <58> entry.c(16), 16 bytes at 0x1ea6240  	{A0 62 EA 01 00 00 00 00 00 63 EA 01 00 00 00 00 .b.......c......}
+unfreed: <57> entry.c(21), 88000 bytes at 0x1e909f0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <56> entry.c(17), 3 bytes at 0x1e90990  	{69 73 00 .. .. .. .. .. .. .. .. .. .. .. .. .. is.}
+unfreed: <55> entry.c(16), 16 bytes at 0x1e90930  	{90 09 E9 01 00 00 00 00 F0 09 E9 01 00 00 00 00 ................}
+unfreed: <54> entry.c(21), 88000 bytes at 0x1e7b0e0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <53> entry.c(17), 4 bytes at 0x1e7b080  	{64 61 79 00 .. .. .. .. .. .. .. .. .. .. .. .. day.}
+unfreed: <52> entry.c(16), 16 bytes at 0x1e7b020  	{80 B0 E7 01 00 00 00 00 E0 B0 E7 01 00 00 00 00 ................}
+unfreed: <51> entry.c(21), 88000 bytes at 0x1e657d0  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <50> entry.c(17), 3 bytes at 0x1e65770  	{6F 66 00 .. .. .. .. .. .. .. .. .. .. .. .. .. of.}
+unfreed: <49> entry.c(16), 16 bytes at 0x1e65710  	{70 57 E6 01 00 00 00 00 D0 57 E6 01 00 00 00 00 pW.......W......}
+unfreed: <48> entry.c(21), 88000 bytes at 0x1e4ff00  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <47> entry.c(17), 5 bytes at 0x1e4fea0  	{77 6F 72 64 00 .. .. .. .. .. .. .. .. .. .. .. word.}
+unfreed: <46> entry.c(16), 16 bytes at 0x1e4ee00  	{A0 FE E4 01 00 00 00 00 00 FF E4 01 00 00 00 00 ................}
+unfreed: <45> client.c(54), 257 bytes at 0x1e4eca0  	{73 68 6F 65 73 00 67 00 79 00 00 00 00 00 00 00 shoes.g.y.......}
+unfreed: <44> client.c(53), 6 bytes at 0x1e4ec40  	{31 2E 74 78 74 00 .. .. .. .. .. .. .. .. .. .. 1.txt.}
+unfreed: <43> stop_linked_list.c(14), 16 bytes at 0x1e4fc00  	{00 00 00 00 00 00 00 00 A0 FB E4 01 00 00 00 00 ................}
+unfreed: <42> stop_linked_list.c(40), 16 bytes at 0x1e4fba0  	{E0 FA E4 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <41> stop_word.c(15), 4 bytes at 0x1e4fb40  	{61 72 65 00 .. .. .. .. .. .. .. .. .. .. .. .. are.}
+unfreed: <40> stop_word.c(13), 8 bytes at 0x1e4fae0  	{40 FB E4 01 00 00 00 00 .. .. .. .. .. .. .. .. @.......}
+unfreed: <39> stop_linked_list.c(14), 16 bytes at 0x1e4fa80  	{00 00 00 00 00 00 00 00 20 FA E4 01 00 00 00 00 ........ .......}
+unfreed: <38> stop_linked_list.c(40), 16 bytes at 0x1e4fa20  	{60 F9 E4 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <37> stop_word.c(15), 3 bytes at 0x1e4f9c0  	{77 65 00 .. .. .. .. .. .. .. .. .. .. .. .. .. we.}
+unfreed: <36> stop_word.c(13), 8 bytes at 0x1e4f960  	{C0 F9 E4 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <35> stop_linked_list.c(14), 16 bytes at 0x1e4f900  	{00 00 00 00 00 00 00 00 A0 F8 E4 01 00 00 00 00 ................}
+unfreed: <34> stop_linked_list.c(40), 16 bytes at 0x1e4f8a0  	{E0 F7 E4 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <33> stop_word.c(15), 3 bytes at 0x1e4f840  	{67 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. go.}
+unfreed: <32> stop_word.c(13), 8 bytes at 0x1e4f7e0  	{40 F8 E4 01 00 00 00 00 .. .. .. .. .. .. .. .. @.......}
+unfreed: <31> stop_linked_list.c(14), 16 bytes at 0x1e4f780  	{00 00 00 00 00 00 00 00 20 F7 E4 01 00 00 00 00 ........ .......}
+unfreed: <30> stop_linked_list.c(40), 16 bytes at 0x1e4f720  	{60 F6 E4 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <29> stop_word.c(15), 4 bytes at 0x1e4f6c0  	{61 6E 64 00 .. .. .. .. .. .. .. .. .. .. .. .. and.}
+unfreed: <28> stop_word.c(13), 8 bytes at 0x1e4f660  	{C0 F6 E4 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <27> stop_linked_list.c(14), 16 bytes at 0x1e4f600  	{00 00 00 00 00 00 00 00 A0 F5 E4 01 00 00 00 00 ................}
+unfreed: <26> stop_linked_list.c(40), 16 bytes at 0x1e4f5a0  	{E0 F4 E4 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <25> stop_word.c(15), 3 bytes at 0x1e4f540  	{61 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. an.}
+unfreed: <24> stop_word.c(13), 8 bytes at 0x1e4f4e0  	{40 F5 E4 01 00 00 00 00 .. .. .. .. .. .. .. .. @.......}
+unfreed: <23> stop_linked_list.c(14), 16 bytes at 0x1e4f480  	{00 00 00 00 00 00 00 00 20 F4 E4 01 00 00 00 00 ........ .......}
+unfreed: <22> stop_linked_list.c(40), 16 bytes at 0x1e4f420  	{60 F3 E4 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <21> stop_word.c(15), 2 bytes at 0x1e4f3c0  	{61 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. a.}
+unfreed: <20> stop_word.c(13), 8 bytes at 0x1e4f360  	{C0 F3 E4 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <19> stop_linked_list.c(14), 16 bytes at 0x1e4f300  	{00 00 00 00 00 00 00 00 A0 F2 E4 01 00 00 00 00 ................}
+unfreed: <18> stop_linked_list.c(40), 16 bytes at 0x1e4f2a0  	{E0 F1 E4 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <17> stop_word.c(15), 3 bytes at 0x1e4f240  	{74 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. to.}
+unfreed: <16> stop_word.c(13), 8 bytes at 0x1e4f1e0  	{40 F2 E4 01 00 00 00 00 .. .. .. .. .. .. .. .. @.......}
+unfreed: <15> stop_linked_list.c(14), 16 bytes at 0x1e4f180  	{00 00 00 00 00 00 00 00 20 F1 E4 01 00 00 00 00 ........ .......}
+unfreed: <14> stop_linked_list.c(40), 16 bytes at 0x1e4f120  	{60 F0 E4 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <13> stop_word.c(15), 4 bytes at 0x1e4f0c0  	{79 65 73 00 .. .. .. .. .. .. .. .. .. .. .. .. yes.}
+unfreed: <12> stop_word.c(13), 8 bytes at 0x1e4f060  	{C0 F0 E4 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <11> stop_linked_list.c(14), 16 bytes at 0x1e4f000  	{00 00 00 00 00 00 00 00 A0 EF E4 01 00 00 00 00 ................}
+unfreed: <10> stop_linked_list.c(40), 16 bytes at 0x1e4efa0  	{E0 EE E4 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <9> stop_word.c(15), 3 bytes at 0x1e4ef40  	{6E 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. no.}
+unfreed: <8> stop_word.c(13), 8 bytes at 0x1e4eee0  	{40 EF E4 01 00 00 00 00 .. .. .. .. .. .. .. .. @.......}
+unfreed: <7> stop_linked_list.c(14), 16 bytes at 0x1e4ee80  	{00 00 00 00 00 00 00 00 D0 8A E3 01 00 00 00 00 ................}
+unfreed: <6> stop_linked_list.c(40), 16 bytes at 0x1e38ad0  	{10 8A E3 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <5> stop_word.c(15), 4 bytes at 0x1e38a70  	{74 68 65 00 .. .. .. .. .. .. .. .. .. .. .. .. the.}
+unfreed: <4> stop_word.c(13), 8 bytes at 0x1e38a10  	{70 8A E3 01 00 00 00 00 .. .. .. .. .. .. .. .. p.......}
+unfreed: <3> client.c(35), 88000 bytes at 0x1e39430  	{40 EC E4 01 00 00 00 00 00 00 00 00 00 00 00 00 @...............}
+unfreed: <2> hash_table.c(22), 560000 bytes at 0x7f7df6a68050  	{00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <1> hash_table.c(17), 16 bytes at 0x1e389b0  	{70 11 01 00 FE FE FE FE 50 80 A6 F6 7D 7F 00 00 p.......P...}...}
+
+Memory usage statistics (global):
+ N)umber of allocations made: 141
+ L)argest memory usage      : 3465391
+ T)otal of all alloc() calls: 3465391
+ U)nfreed bytes totals      : 3465391
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Thu Apr 28 15:02:51 2016
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Thu Apr 28 15:02:53 2016
+
+unfreed: <147> entry.c(21), 88000 bytes at 0x1e9c9d0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <146> entry.c(17), 6 bytes at 0x1e9c970  	{73 68 6F 65 73 00 .. .. .. .. .. .. .. .. .. .. shoes.}
+unfreed: <145> entry.c(16), 16 bytes at 0x1e9c910  	{70 C9 E9 01 00 00 00 00 D0 C9 E9 01 00 00 00 00 p...............}
+unfreed: <144> entry.c(21), 88000 bytes at 0x1e870c0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <143> entry.c(17), 5 bytes at 0x1e87060  	{62 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. boat.}
+unfreed: <142> entry.c(16), 16 bytes at 0x1e87000  	{60 70 E8 01 00 00 00 00 C0 70 E8 01 00 00 00 00 `p.......p......}
+unfreed: <141> entry.c(21), 88000 bytes at 0x1e717b0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <140> entry.c(17), 5 bytes at 0x1e71750  	{63 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. coat.}
+unfreed: <139> entry.c(16), 16 bytes at 0x1e716f0  	{50 17 E7 01 00 00 00 00 B0 17 E7 01 00 00 00 00 P...............}
+unfreed: <138> entry.c(21), 88000 bytes at 0x1e5bea0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <137> entry.c(17), 5 bytes at 0x1e5be40  	{72 61 69 6E 00 .. .. .. .. .. .. .. .. .. .. .. rain.}
+unfreed: <136> entry.c(16), 16 bytes at 0x1e5bde0  	{40 BE E5 01 00 00 00 00 A0 BE E5 01 00 00 00 00 @...............}
+unfreed: <135> entry.c(21), 88000 bytes at 0x1e46590  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <134> entry.c(17), 8 bytes at 0x1e46530  	{77 65 61 72 69 6E 67 00 .. .. .. .. .. .. .. .. wearing.}
+unfreed: <133> entry.c(16), 16 bytes at 0x1e464d0  	{30 65 E4 01 00 00 00 00 90 65 E4 01 00 00 00 00 0e.......e......}
+unfreed: <132> entry.c(21), 88000 bytes at 0x1e30c80  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <131> entry.c(17), 2 bytes at 0x1e30c20  	{6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. m.}
+unfreed: <130> entry.c(16), 16 bytes at 0x1e30bc0  	{20 0C E3 01 00 00 00 00 80 0C E3 01 00 00 00 00  ...............}
+unfreed: <129> entry.c(21), 88000 bytes at 0x1e1b370  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <128> entry.c(17), 6 bytes at 0x1e1b310  	{73 75 6E 6E 79 00 .. .. .. .. .. .. .. .. .. .. sunny.}
+unfreed: <127> entry.c(16), 16 bytes at 0x1e1b2b0  	{10 B3 E1 01 00 00 00 00 70 B3 E1 01 00 00 00 00 ........p.......}
+unfreed: <126> entry.c(21), 88000 bytes at 0x1e05a60  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <125> entry.c(17), 4 bytes at 0x1e05a00  	{77 61 73 00 .. .. .. .. .. .. .. .. .. .. .. .. was.}
+unfreed: <124> entry.c(16), 16 bytes at 0x1e059a0  	{00 5A E0 01 00 00 00 00 60 5A E0 01 00 00 00 00 .Z......`Z......}
+unfreed: <123> entry.c(21), 88000 bytes at 0x1df0150  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <122> entry.c(17), 10 bytes at 0x1df00f0  	{79 65 73 74 65 72 64 61 79 00 .. .. .. .. .. .. yesterday.}
+unfreed: <121> entry.c(16), 16 bytes at 0x1df0090  	{F0 00 DF 01 00 00 00 00 50 01 DF 01 00 00 00 00 ........P.......}
+unfreed: <120> entry.c(21), 88000 bytes at 0x1dda840  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <119> entry.c(17), 4 bytes at 0x1dda7e0  	{6F 75 74 00 .. .. .. .. .. .. .. .. .. .. .. .. out.}
+unfreed: <118> entry.c(16), 16 bytes at 0x1dda780  	{E0 A7 DD 01 00 00 00 00 40 A8 DD 01 00 00 00 00 ........@.......}
+unfreed: <117> entry.c(21), 88000 bytes at 0x1dc4f30  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <116> entry.c(17), 8 bytes at 0x1dc4ed0  	{72 61 69 6E 69 6E 67 00 .. .. .. .. .. .. .. .. raining.}
+unfreed: <115> entry.c(16), 16 bytes at 0x1dc4e70  	{D0 4E DC 01 00 00 00 00 30 4F DC 01 00 00 00 00 .N......0O......}
+unfreed: <114> entry.c(21), 88000 bytes at 0x1daf620  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <113> entry.c(17), 3 bytes at 0x1daf5c0  	{69 74 00 .. .. .. .. .. .. .. .. .. .. .. .. .. it.}
+unfreed: <112> entry.c(16), 16 bytes at 0x1daf560  	{C0 F5 DA 01 00 00 00 00 20 F6 DA 01 00 00 00 00 ........ .......}
+unfreed: <111> entry.c(21), 88000 bytes at 0x1d99d10  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <110> entry.c(17), 6 bytes at 0x1d99cb0  	{57 57 54 57 4F 00 .. .. .. .. .. .. .. .. .. .. WWTWO.}
+unfreed: <109> entry.c(16), 16 bytes at 0x1d99c50  	{B0 9C D9 01 00 00 00 00 10 9D D9 01 00 00 00 00 ................}
+unfreed: <108> entry.c(21), 88000 bytes at 0x1d84400  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <107> entry.c(17), 6 bytes at 0x1d843a0  	{61 62 6F 75 74 00 .. .. .. .. .. .. .. .. .. .. about.}
+unfreed: <106> entry.c(16), 16 bytes at 0x1d84340  	{A0 43 D8 01 00 00 00 00 00 44 D8 01 00 00 00 00 .C.......D......}
+unfreed: <105> entry.c(21), 88000 bytes at 0x1d6eaf0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <104> entry.c(17), 8 bytes at 0x1d6ea90  	{74 61 6C 6B 69 6E 67 00 .. .. .. .. .. .. .. .. talking.}
+unfreed: <103> entry.c(16), 16 bytes at 0x1d6ea30  	{90 EA D6 01 00 00 00 00 F0 EA D6 01 00 00 00 00 ................}
+unfreed: <102> entry.c(21), 88000 bytes at 0x1d591e0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <101> entry.c(17), 6 bytes at 0x1d59180  	{63 6C 61 73 73 00 .. .. .. .. .. .. .. .. .. .. class.}
+unfreed: <100> entry.c(16), 16 bytes at 0x1d59120  	{80 91 D5 01 00 00 00 00 E0 91 D5 01 00 00 00 00 ................}
+unfreed: <99> entry.c(21), 88000 bytes at 0x1d438d0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <98> entry.c(17), 8 bytes at 0x1d43870  	{68 69 73 74 6F 72 79 00 .. .. .. .. .. .. .. .. history.}
+unfreed: <97> entry.c(16), 16 bytes at 0x1d43810  	{70 38 D4 01 00 00 00 00 D0 38 D4 01 00 00 00 00 p8.......8......}
+unfreed: <96> entry.c(21), 88000 bytes at 0x1d2dfc0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <95> entry.c(17), 4 bytes at 0x1d2df60  	{66 6F 72 00 .. .. .. .. .. .. .. .. .. .. .. .. for.}
+unfreed: <94> entry.c(16), 16 bytes at 0x1d2df00  	{60 DF D2 01 00 00 00 00 C0 DF D2 01 00 00 00 00 `...............}
+unfreed: <93> entry.c(21), 88000 bytes at 0x1d186b0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <92> entry.c(17), 10 bytes at 0x1d18650  	{63 6C 61 73 73 72 6F 6F 6D 00 .. .. .. .. .. .. classroom.}
+unfreed: <91> entry.c(16), 16 bytes at 0x1d185f0  	{50 86 D1 01 00 00 00 00 B0 86 D1 01 00 00 00 00 P...............}
+unfreed: <90> entry.c(21), 88000 bytes at 0x1d02da0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <89> entry.c(17), 3 bytes at 0x1d02d40  	{69 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. in.}
+unfreed: <88> entry.c(16), 16 bytes at 0x1d02ce0  	{40 2D D0 01 00 00 00 00 A0 2D D0 01 00 00 00 00 @-.......-......}
+unfreed: <87> entry.c(21), 88000 bytes at 0x1ced490  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <86> entry.c(17), 3 bytes at 0x1ced430  	{61 6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. am.}
+unfreed: <85> entry.c(16), 16 bytes at 0x1ced3d0  	{30 D4 CE 01 00 00 00 00 90 D4 CE 01 00 00 00 00 0...............}
+unfreed: <84> entry.c(21), 88000 bytes at 0x1cd7b80  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <83> entry.c(17), 2 bytes at 0x1cd7b20  	{49 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. I.}
+unfreed: <82> entry.c(16), 16 bytes at 0x1cd7ac0  	{20 7B CD 01 00 00 00 00 80 7B CD 01 00 00 00 00  {.......{......}
+unfreed: <81> entry.c(21), 88000 bytes at 0x1cc2270  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <80> entry.c(17), 5 bytes at 0x1cc2210  	{6E 69 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. nine.}
+unfreed: <79> entry.c(16), 16 bytes at 0x1cc21b0  	{10 22 CC 01 00 00 00 00 70 22 CC 01 00 00 00 00 ."......p"......}
+unfreed: <78> entry.c(21), 88000 bytes at 0x1cac960  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <77> entry.c(17), 5 bytes at 0x1cac900  	{66 6F 75 72 00 .. .. .. .. .. .. .. .. .. .. .. four.}
+unfreed: <76> entry.c(16), 16 bytes at 0x1cac8a0  	{00 C9 CA 01 00 00 00 00 60 C9 CA 01 00 00 00 00 ........`.......}
+unfreed: <75> entry.c(21), 88000 bytes at 0x1c97050  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <74> entry.c(17), 5 bytes at 0x1c96ff0  	{66 69 76 65 00 .. .. .. .. .. .. .. .. .. .. .. five.}
+unfreed: <73> entry.c(16), 16 bytes at 0x1c96f90  	{F0 6F C9 01 00 00 00 00 50 70 C9 01 00 00 00 00 .o......Pp......}
+unfreed: <72> entry.c(21), 88000 bytes at 0x1c81740  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <71> entry.c(17), 4 bytes at 0x1c816e0  	{6F 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. .. one.}
+unfreed: <70> entry.c(16), 16 bytes at 0x1c81680  	{E0 16 C8 01 00 00 00 00 40 17 C8 01 00 00 00 00 ........@.......}
+unfreed: <69> entry.c(21), 88000 bytes at 0x1c6be30  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <68> entry.c(17), 5 bytes at 0x1c6bdd0  	{4A 75 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. June.}
+unfreed: <67> entry.c(16), 16 bytes at 0x1c6bd70  	{D0 BD C6 01 00 00 00 00 30 BE C6 01 00 00 00 00 ........0.......}
+unfreed: <66> entry.c(21), 88000 bytes at 0x1c56520  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <65> entry.c(17), 4 bytes at 0x1c564c0  	{74 6F 64 00 .. .. .. .. .. .. .. .. .. .. .. .. tod.}
+unfreed: <64> entry.c(16), 16 bytes at 0x1c56460  	{C0 64 C5 01 00 00 00 00 20 65 C5 01 00 00 00 00 .d...... e......}
+unfreed: <63> entry.c(21), 88000 bytes at 0x1c40c10  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <62> entry.c(17), 3 bytes at 0x1c40bb0  	{69 73 00 .. .. .. .. .. .. .. .. .. .. .. .. .. is.}
+unfreed: <61> entry.c(16), 16 bytes at 0x1c40b50  	{B0 0B C4 01 00 00 00 00 10 0C C4 01 00 00 00 00 ................}
+unfreed: <60> entry.c(21), 88000 bytes at 0x1c2b300  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <59> entry.c(17), 3 bytes at 0x1c2b2a0  	{61 79 00 .. .. .. .. .. .. .. .. .. .. .. .. .. ay.}
+unfreed: <58> entry.c(16), 16 bytes at 0x1c2b240  	{A0 B2 C2 01 00 00 00 00 00 B3 C2 01 00 00 00 00 ................}
+unfreed: <57> entry.c(21), 88000 bytes at 0x1c159f0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <56> entry.c(17), 2 bytes at 0x1c15990  	{64 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. d.}
+unfreed: <55> entry.c(16), 16 bytes at 0x1c15930  	{90 59 C1 01 00 00 00 00 F0 59 C1 01 00 00 00 00 .Y.......Y......}
+unfreed: <54> entry.c(21), 88000 bytes at 0x1c000e0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <53> entry.c(17), 7 bytes at 0x1c00080  	{6C 6F 79 6F 6C 61 00 .. .. .. .. .. .. .. .. .. loyola.}
+unfreed: <52> entry.c(16), 16 bytes at 0x1c00020  	{80 00 C0 01 00 00 00 00 E0 00 C0 01 00 00 00 00 ................}
+unfreed: <51> entry.c(21), 88000 bytes at 0x1bea7d0  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <50> entry.c(17), 3 bytes at 0x1bea770  	{6F 66 00 .. .. .. .. .. .. .. .. .. .. .. .. .. of.}
+unfreed: <49> entry.c(16), 16 bytes at 0x1bea710  	{70 A7 BE 01 00 00 00 00 D0 A7 BE 01 00 00 00 00 p...............}
+unfreed: <48> entry.c(21), 88000 bytes at 0x1bd4f00  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <47> entry.c(17), 5 bytes at 0x1bd4ea0  	{77 6F 72 64 00 .. .. .. .. .. .. .. .. .. .. .. word.}
+unfreed: <46> entry.c(16), 16 bytes at 0x1bd3e00  	{A0 4E BD 01 00 00 00 00 00 4F BD 01 00 00 00 00 .N.......O......}
+unfreed: <45> client.c(54), 257 bytes at 0x1bd3ca0  	{73 68 6F 65 73 00 67 00 79 00 00 00 00 00 00 00 shoes.g.y.......}
+unfreed: <44> client.c(53), 6 bytes at 0x1bd3c40  	{31 2E 74 78 74 00 .. .. .. .. .. .. .. .. .. .. 1.txt.}
+unfreed: <43> stop_linked_list.c(14), 16 bytes at 0x1bd4c00  	{00 00 00 00 00 00 00 00 A0 4B BD 01 00 00 00 00 .........K......}
+unfreed: <42> stop_linked_list.c(40), 16 bytes at 0x1bd4ba0  	{E0 4A BD 01 00 00 00 00 00 00 00 00 00 00 00 00 .J..............}
+unfreed: <41> stop_word.c(15), 4 bytes at 0x1bd4b40  	{61 72 65 00 .. .. .. .. .. .. .. .. .. .. .. .. are.}
+unfreed: <40> stop_word.c(13), 8 bytes at 0x1bd4ae0  	{40 4B BD 01 00 00 00 00 .. .. .. .. .. .. .. .. @K......}
+unfreed: <39> stop_linked_list.c(14), 16 bytes at 0x1bd4a80  	{00 00 00 00 00 00 00 00 20 4A BD 01 00 00 00 00 ........ J......}
+unfreed: <38> stop_linked_list.c(40), 16 bytes at 0x1bd4a20  	{60 49 BD 01 00 00 00 00 00 00 00 00 00 00 00 00 `I..............}
+unfreed: <37> stop_word.c(15), 3 bytes at 0x1bd49c0  	{77 65 00 .. .. .. .. .. .. .. .. .. .. .. .. .. we.}
+unfreed: <36> stop_word.c(13), 8 bytes at 0x1bd4960  	{C0 49 BD 01 00 00 00 00 .. .. .. .. .. .. .. .. .I......}
+unfreed: <35> stop_linked_list.c(14), 16 bytes at 0x1bd4900  	{00 00 00 00 00 00 00 00 A0 48 BD 01 00 00 00 00 .........H......}
+unfreed: <34> stop_linked_list.c(40), 16 bytes at 0x1bd48a0  	{E0 47 BD 01 00 00 00 00 00 00 00 00 00 00 00 00 .G..............}
+unfreed: <33> stop_word.c(15), 3 bytes at 0x1bd4840  	{67 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. go.}
+unfreed: <32> stop_word.c(13), 8 bytes at 0x1bd47e0  	{40 48 BD 01 00 00 00 00 .. .. .. .. .. .. .. .. @H......}
+unfreed: <31> stop_linked_list.c(14), 16 bytes at 0x1bd4780  	{00 00 00 00 00 00 00 00 20 47 BD 01 00 00 00 00 ........ G......}
+unfreed: <30> stop_linked_list.c(40), 16 bytes at 0x1bd4720  	{60 46 BD 01 00 00 00 00 00 00 00 00 00 00 00 00 `F..............}
+unfreed: <29> stop_word.c(15), 4 bytes at 0x1bd46c0  	{61 6E 64 00 .. .. .. .. .. .. .. .. .. .. .. .. and.}
+unfreed: <28> stop_word.c(13), 8 bytes at 0x1bd4660  	{C0 46 BD 01 00 00 00 00 .. .. .. .. .. .. .. .. .F......}
+unfreed: <27> stop_linked_list.c(14), 16 bytes at 0x1bd4600  	{00 00 00 00 00 00 00 00 A0 45 BD 01 00 00 00 00 .........E......}
+unfreed: <26> stop_linked_list.c(40), 16 bytes at 0x1bd45a0  	{E0 44 BD 01 00 00 00 00 00 00 00 00 00 00 00 00 .D..............}
+unfreed: <25> stop_word.c(15), 3 bytes at 0x1bd4540  	{61 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. an.}
+unfreed: <24> stop_word.c(13), 8 bytes at 0x1bd44e0  	{40 45 BD 01 00 00 00 00 .. .. .. .. .. .. .. .. @E......}
+unfreed: <23> stop_linked_list.c(14), 16 bytes at 0x1bd4480  	{00 00 00 00 00 00 00 00 20 44 BD 01 00 00 00 00 ........ D......}
+unfreed: <22> stop_linked_list.c(40), 16 bytes at 0x1bd4420  	{60 43 BD 01 00 00 00 00 00 00 00 00 00 00 00 00 `C..............}
+unfreed: <21> stop_word.c(15), 2 bytes at 0x1bd43c0  	{61 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. a.}
+unfreed: <20> stop_word.c(13), 8 bytes at 0x1bd4360  	{C0 43 BD 01 00 00 00 00 .. .. .. .. .. .. .. .. .C......}
+unfreed: <19> stop_linked_list.c(14), 16 bytes at 0x1bd4300  	{00 00 00 00 00 00 00 00 A0 42 BD 01 00 00 00 00 .........B......}
+unfreed: <18> stop_linked_list.c(40), 16 bytes at 0x1bd42a0  	{E0 41 BD 01 00 00 00 00 00 00 00 00 00 00 00 00 .A..............}
+unfreed: <17> stop_word.c(15), 3 bytes at 0x1bd4240  	{74 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. to.}
+unfreed: <16> stop_word.c(13), 8 bytes at 0x1bd41e0  	{40 42 BD 01 00 00 00 00 .. .. .. .. .. .. .. .. @B......}
+unfreed: <15> stop_linked_list.c(14), 16 bytes at 0x1bd4180  	{00 00 00 00 00 00 00 00 20 41 BD 01 00 00 00 00 ........ A......}
+unfreed: <14> stop_linked_list.c(40), 16 bytes at 0x1bd4120  	{60 40 BD 01 00 00 00 00 00 00 00 00 00 00 00 00 `@..............}
+unfreed: <13> stop_word.c(15), 4 bytes at 0x1bd40c0  	{79 65 73 00 .. .. .. .. .. .. .. .. .. .. .. .. yes.}
+unfreed: <12> stop_word.c(13), 8 bytes at 0x1bd4060  	{C0 40 BD 01 00 00 00 00 .. .. .. .. .. .. .. .. .@......}
+unfreed: <11> stop_linked_list.c(14), 16 bytes at 0x1bd4000  	{00 00 00 00 00 00 00 00 A0 3F BD 01 00 00 00 00 .........?......}
+unfreed: <10> stop_linked_list.c(40), 16 bytes at 0x1bd3fa0  	{E0 3E BD 01 00 00 00 00 00 00 00 00 00 00 00 00 .>..............}
+unfreed: <9> stop_word.c(15), 3 bytes at 0x1bd3f40  	{6E 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. no.}
+unfreed: <8> stop_word.c(13), 8 bytes at 0x1bd3ee0  	{40 3F BD 01 00 00 00 00 .. .. .. .. .. .. .. .. @?......}
+unfreed: <7> stop_linked_list.c(14), 16 bytes at 0x1bd3e80  	{00 00 00 00 00 00 00 00 D0 DA BB 01 00 00 00 00 ................}
+unfreed: <6> stop_linked_list.c(40), 16 bytes at 0x1bbdad0  	{10 DA BB 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <5> stop_word.c(15), 4 bytes at 0x1bbda70  	{74 68 65 00 .. .. .. .. .. .. .. .. .. .. .. .. the.}
+unfreed: <4> stop_word.c(13), 8 bytes at 0x1bbda10  	{70 DA BB 01 00 00 00 00 .. .. .. .. .. .. .. .. p.......}
+unfreed: <3> client.c(35), 88000 bytes at 0x1bbe430  	{40 3C BD 01 00 00 00 00 00 00 00 00 00 00 00 00 @<..............}
+unfreed: <2> hash_table.c(22), 560000 bytes at 0x7fa7570af050  	{00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <1> hash_table.c(17), 16 bytes at 0x1bbd9b0  	{70 11 01 00 FE FE FE FE 50 F0 0A 57 A7 7F 00 00 p.......P..W....}
+
+Memory usage statistics (global):
+ N)umber of allocations made: 147
+ L)argest memory usage      : 3641429
+ T)otal of all alloc() calls: 3641429
+ U)nfreed bytes totals      : 3641429
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Thu Apr 28 15:48:20 2016
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Thu Apr 28 15:48:33 2016
+
+unfreed: <147> entry.c(21), 88000 bytes at 0x20399f0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <146> entry.c(17), 6 bytes at 0x2039990  	{73 68 6F 65 73 00 .. .. .. .. .. .. .. .. .. .. shoes.}
+unfreed: <145> entry.c(16), 16 bytes at 0x2039930  	{90 99 03 02 00 00 00 00 F0 99 03 02 00 00 00 00 ................}
+unfreed: <144> entry.c(21), 88000 bytes at 0x20240e0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <143> entry.c(17), 5 bytes at 0x2024080  	{62 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. boat.}
+unfreed: <142> entry.c(16), 16 bytes at 0x2024020  	{80 40 02 02 00 00 00 00 E0 40 02 02 00 00 00 00 .@.......@......}
+unfreed: <141> entry.c(21), 88000 bytes at 0x200e7d0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <140> entry.c(17), 5 bytes at 0x200e770  	{63 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. coat.}
+unfreed: <139> entry.c(16), 16 bytes at 0x200e710  	{70 E7 00 02 00 00 00 00 D0 E7 00 02 00 00 00 00 p...............}
+unfreed: <138> entry.c(21), 88000 bytes at 0x1ff8ec0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <137> entry.c(17), 5 bytes at 0x1ff8e60  	{72 61 69 6E 00 .. .. .. .. .. .. .. .. .. .. .. rain.}
+unfreed: <136> entry.c(16), 16 bytes at 0x1ff8e00  	{60 8E FF 01 00 00 00 00 C0 8E FF 01 00 00 00 00 `...............}
+unfreed: <135> entry.c(21), 88000 bytes at 0x1fe35b0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <134> entry.c(17), 8 bytes at 0x1fe3550  	{77 65 61 72 69 6E 67 00 .. .. .. .. .. .. .. .. wearing.}
+unfreed: <133> entry.c(16), 16 bytes at 0x1fe34f0  	{50 35 FE 01 00 00 00 00 B0 35 FE 01 00 00 00 00 P5.......5......}
+unfreed: <132> entry.c(21), 88000 bytes at 0x1fcdca0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <131> entry.c(17), 2 bytes at 0x1fcdc40  	{6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. m.}
+unfreed: <130> entry.c(16), 16 bytes at 0x1fcdbe0  	{40 DC FC 01 00 00 00 00 A0 DC FC 01 00 00 00 00 @...............}
+unfreed: <129> entry.c(21), 88000 bytes at 0x1fb8390  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <128> entry.c(17), 6 bytes at 0x1fb8330  	{73 75 6E 6E 79 00 .. .. .. .. .. .. .. .. .. .. sunny.}
+unfreed: <127> entry.c(16), 16 bytes at 0x1fb82d0  	{30 83 FB 01 00 00 00 00 90 83 FB 01 00 00 00 00 0...............}
+unfreed: <126> entry.c(21), 88000 bytes at 0x1fa2a80  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <125> entry.c(17), 4 bytes at 0x1fa2a20  	{77 61 73 00 .. .. .. .. .. .. .. .. .. .. .. .. was.}
+unfreed: <124> entry.c(16), 16 bytes at 0x1fa29c0  	{20 2A FA 01 00 00 00 00 80 2A FA 01 00 00 00 00  *.......*......}
+unfreed: <123> entry.c(21), 88000 bytes at 0x1f8d170  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <122> entry.c(17), 10 bytes at 0x1f8d110  	{79 65 73 74 65 72 64 61 79 00 .. .. .. .. .. .. yesterday.}
+unfreed: <121> entry.c(16), 16 bytes at 0x1f8d0b0  	{10 D1 F8 01 00 00 00 00 70 D1 F8 01 00 00 00 00 ........p.......}
+unfreed: <120> entry.c(21), 88000 bytes at 0x1f77860  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <119> entry.c(17), 4 bytes at 0x1f77800  	{6F 75 74 00 .. .. .. .. .. .. .. .. .. .. .. .. out.}
+unfreed: <118> entry.c(16), 16 bytes at 0x1f777a0  	{00 78 F7 01 00 00 00 00 60 78 F7 01 00 00 00 00 .x......`x......}
+unfreed: <117> entry.c(21), 88000 bytes at 0x1f61f50  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <116> entry.c(17), 8 bytes at 0x1f61ef0  	{72 61 69 6E 69 6E 67 00 .. .. .. .. .. .. .. .. raining.}
+unfreed: <115> entry.c(16), 16 bytes at 0x1f61e90  	{F0 1E F6 01 00 00 00 00 50 1F F6 01 00 00 00 00 ........P.......}
+unfreed: <114> entry.c(21), 88000 bytes at 0x1f4c640  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <113> entry.c(17), 3 bytes at 0x1f4c5e0  	{69 74 00 .. .. .. .. .. .. .. .. .. .. .. .. .. it.}
+unfreed: <112> entry.c(16), 16 bytes at 0x1f4c580  	{E0 C5 F4 01 00 00 00 00 40 C6 F4 01 00 00 00 00 ........@.......}
+unfreed: <111> entry.c(21), 88000 bytes at 0x1f36d30  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <110> entry.c(17), 6 bytes at 0x1f36cd0  	{57 57 54 57 4F 00 .. .. .. .. .. .. .. .. .. .. WWTWO.}
+unfreed: <109> entry.c(16), 16 bytes at 0x1f36c70  	{D0 6C F3 01 00 00 00 00 30 6D F3 01 00 00 00 00 .l......0m......}
+unfreed: <108> entry.c(21), 88000 bytes at 0x1f21420  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <107> entry.c(17), 6 bytes at 0x1f213c0  	{61 62 6F 75 74 00 .. .. .. .. .. .. .. .. .. .. about.}
+unfreed: <106> entry.c(16), 16 bytes at 0x1f21360  	{C0 13 F2 01 00 00 00 00 20 14 F2 01 00 00 00 00 ........ .......}
+unfreed: <105> entry.c(21), 88000 bytes at 0x1f0bb10  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <104> entry.c(17), 8 bytes at 0x1f0bab0  	{74 61 6C 6B 69 6E 67 00 .. .. .. .. .. .. .. .. talking.}
+unfreed: <103> entry.c(16), 16 bytes at 0x1f0ba50  	{B0 BA F0 01 00 00 00 00 10 BB F0 01 00 00 00 00 ................}
+unfreed: <102> entry.c(21), 88000 bytes at 0x1ef6200  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <101> entry.c(17), 6 bytes at 0x1ef61a0  	{63 6C 61 73 73 00 .. .. .. .. .. .. .. .. .. .. class.}
+unfreed: <100> entry.c(16), 16 bytes at 0x1ef6140  	{A0 61 EF 01 00 00 00 00 00 62 EF 01 00 00 00 00 .a.......b......}
+unfreed: <99> entry.c(21), 88000 bytes at 0x1ee08f0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <98> entry.c(17), 8 bytes at 0x1ee0890  	{68 69 73 74 6F 72 79 00 .. .. .. .. .. .. .. .. history.}
+unfreed: <97> entry.c(16), 16 bytes at 0x1ee0830  	{90 08 EE 01 00 00 00 00 F0 08 EE 01 00 00 00 00 ................}
+unfreed: <96> entry.c(21), 88000 bytes at 0x1ecafe0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <95> entry.c(17), 4 bytes at 0x1ecaf80  	{66 6F 72 00 .. .. .. .. .. .. .. .. .. .. .. .. for.}
+unfreed: <94> entry.c(16), 16 bytes at 0x1ecaf20  	{80 AF EC 01 00 00 00 00 E0 AF EC 01 00 00 00 00 ................}
+unfreed: <93> entry.c(21), 88000 bytes at 0x1eb56d0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <92> entry.c(17), 10 bytes at 0x1eb5670  	{63 6C 61 73 73 72 6F 6F 6D 00 .. .. .. .. .. .. classroom.}
+unfreed: <91> entry.c(16), 16 bytes at 0x1eb5610  	{70 56 EB 01 00 00 00 00 D0 56 EB 01 00 00 00 00 pV.......V......}
+unfreed: <90> entry.c(21), 88000 bytes at 0x1e9fdc0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <89> entry.c(17), 3 bytes at 0x1e9fd60  	{69 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. in.}
+unfreed: <88> entry.c(16), 16 bytes at 0x1e9fd00  	{60 FD E9 01 00 00 00 00 C0 FD E9 01 00 00 00 00 `...............}
+unfreed: <87> entry.c(21), 88000 bytes at 0x1e8a4b0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <86> entry.c(17), 3 bytes at 0x1e8a450  	{61 6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. am.}
+unfreed: <85> entry.c(16), 16 bytes at 0x1e8a3f0  	{50 A4 E8 01 00 00 00 00 B0 A4 E8 01 00 00 00 00 P...............}
+unfreed: <84> entry.c(21), 88000 bytes at 0x1e74ba0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <83> entry.c(17), 2 bytes at 0x1e74b40  	{49 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. I.}
+unfreed: <82> entry.c(16), 16 bytes at 0x1e74ae0  	{40 4B E7 01 00 00 00 00 A0 4B E7 01 00 00 00 00 @K.......K......}
+unfreed: <81> entry.c(21), 88000 bytes at 0x1e5f290  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <80> entry.c(17), 5 bytes at 0x1e5f230  	{6E 69 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. nine.}
+unfreed: <79> entry.c(16), 16 bytes at 0x1e5f1d0  	{30 F2 E5 01 00 00 00 00 90 F2 E5 01 00 00 00 00 0...............}
+unfreed: <78> entry.c(21), 88000 bytes at 0x1e49980  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <77> entry.c(17), 5 bytes at 0x1e49920  	{66 6F 75 72 00 .. .. .. .. .. .. .. .. .. .. .. four.}
+unfreed: <76> entry.c(16), 16 bytes at 0x1e498c0  	{20 99 E4 01 00 00 00 00 80 99 E4 01 00 00 00 00  ...............}
+unfreed: <75> entry.c(21), 88000 bytes at 0x1e34070  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <74> entry.c(17), 5 bytes at 0x1e34010  	{66 69 76 65 00 .. .. .. .. .. .. .. .. .. .. .. five.}
+unfreed: <73> entry.c(16), 16 bytes at 0x1e33fb0  	{10 40 E3 01 00 00 00 00 70 40 E3 01 00 00 00 00 .@......p@......}
+unfreed: <72> entry.c(21), 88000 bytes at 0x1e1e760  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <71> entry.c(17), 4 bytes at 0x1e1e700  	{6F 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. .. one.}
+unfreed: <70> entry.c(16), 16 bytes at 0x1e1e6a0  	{00 E7 E1 01 00 00 00 00 60 E7 E1 01 00 00 00 00 ........`.......}
+unfreed: <69> entry.c(21), 88000 bytes at 0x1e08e50  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <68> entry.c(17), 5 bytes at 0x1e08df0  	{4A 75 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. June.}
+unfreed: <67> entry.c(16), 16 bytes at 0x1e08d90  	{F0 8D E0 01 00 00 00 00 50 8E E0 01 00 00 00 00 ........P.......}
+unfreed: <66> entry.c(21), 88000 bytes at 0x1df3540  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <65> entry.c(17), 4 bytes at 0x1df34e0  	{74 6F 64 00 .. .. .. .. .. .. .. .. .. .. .. .. tod.}
+unfreed: <64> entry.c(16), 16 bytes at 0x1df3480  	{E0 34 DF 01 00 00 00 00 40 35 DF 01 00 00 00 00 .4......@5......}
+unfreed: <63> entry.c(21), 88000 bytes at 0x1dddc30  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <62> entry.c(17), 3 bytes at 0x1dddbd0  	{69 73 00 .. .. .. .. .. .. .. .. .. .. .. .. .. is.}
+unfreed: <61> entry.c(16), 16 bytes at 0x1dddb70  	{D0 DB DD 01 00 00 00 00 30 DC DD 01 00 00 00 00 ........0.......}
+unfreed: <60> entry.c(21), 88000 bytes at 0x1dc8320  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <59> entry.c(17), 3 bytes at 0x1dc82c0  	{61 79 00 .. .. .. .. .. .. .. .. .. .. .. .. .. ay.}
+unfreed: <58> entry.c(16), 16 bytes at 0x1dc8260  	{C0 82 DC 01 00 00 00 00 20 83 DC 01 00 00 00 00 ........ .......}
+unfreed: <57> entry.c(21), 88000 bytes at 0x1db2a10  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <56> entry.c(17), 2 bytes at 0x1db29b0  	{64 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. d.}
+unfreed: <55> entry.c(16), 16 bytes at 0x1db2950  	{B0 29 DB 01 00 00 00 00 10 2A DB 01 00 00 00 00 .).......*......}
+unfreed: <54> entry.c(21), 88000 bytes at 0x1d9d100  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <53> entry.c(17), 7 bytes at 0x1d9d0a0  	{6C 6F 79 6F 6C 61 00 .. .. .. .. .. .. .. .. .. loyola.}
+unfreed: <52> entry.c(16), 16 bytes at 0x1d9d040  	{A0 D0 D9 01 00 00 00 00 00 D1 D9 01 00 00 00 00 ................}
+unfreed: <51> entry.c(21), 88000 bytes at 0x1d877f0  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <50> entry.c(17), 3 bytes at 0x1d87790  	{6F 66 00 .. .. .. .. .. .. .. .. .. .. .. .. .. of.}
+unfreed: <49> entry.c(16), 16 bytes at 0x1d87730  	{90 77 D8 01 00 00 00 00 F0 77 D8 01 00 00 00 00 .w.......w......}
+unfreed: <48> entry.c(21), 88000 bytes at 0x1d71f20  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <47> entry.c(17), 5 bytes at 0x1d71ec0  	{77 6F 72 64 00 .. .. .. .. .. .. .. .. .. .. .. word.}
+unfreed: <46> entry.c(16), 16 bytes at 0x1d70e20  	{C0 1E D7 01 00 00 00 00 20 1F D7 01 00 00 00 00 ........ .......}
+unfreed: <45> client.c(54), 257 bytes at 0x1d70cc0  	{73 68 6F 65 73 00 67 00 79 00 00 00 00 00 00 00 shoes.g.y.......}
+unfreed: <44> client.c(53), 6 bytes at 0x1d70c60  	{31 2E 74 78 74 00 .. .. .. .. .. .. .. .. .. .. 1.txt.}
+unfreed: <43> stop_linked_list.c(14), 16 bytes at 0x1d71c20  	{00 00 00 00 00 00 00 00 C0 1B D7 01 00 00 00 00 ................}
+unfreed: <42> stop_linked_list.c(40), 16 bytes at 0x1d71bc0  	{00 1B D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <41> stop_word.c(15), 4 bytes at 0x1d71b60  	{61 72 65 00 .. .. .. .. .. .. .. .. .. .. .. .. are.}
+unfreed: <40> stop_word.c(13), 8 bytes at 0x1d71b00  	{60 1B D7 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <39> stop_linked_list.c(14), 16 bytes at 0x1d71aa0  	{00 00 00 00 00 00 00 00 40 1A D7 01 00 00 00 00 ........@.......}
+unfreed: <38> stop_linked_list.c(40), 16 bytes at 0x1d71a40  	{80 19 D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <37> stop_word.c(15), 3 bytes at 0x1d719e0  	{77 65 00 .. .. .. .. .. .. .. .. .. .. .. .. .. we.}
+unfreed: <36> stop_word.c(13), 8 bytes at 0x1d71980  	{E0 19 D7 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <35> stop_linked_list.c(14), 16 bytes at 0x1d71920  	{00 00 00 00 00 00 00 00 C0 18 D7 01 00 00 00 00 ................}
+unfreed: <34> stop_linked_list.c(40), 16 bytes at 0x1d718c0  	{00 18 D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <33> stop_word.c(15), 3 bytes at 0x1d71860  	{67 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. go.}
+unfreed: <32> stop_word.c(13), 8 bytes at 0x1d71800  	{60 18 D7 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <31> stop_linked_list.c(14), 16 bytes at 0x1d717a0  	{00 00 00 00 00 00 00 00 40 17 D7 01 00 00 00 00 ........@.......}
+unfreed: <30> stop_linked_list.c(40), 16 bytes at 0x1d71740  	{80 16 D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <29> stop_word.c(15), 4 bytes at 0x1d716e0  	{61 6E 64 00 .. .. .. .. .. .. .. .. .. .. .. .. and.}
+unfreed: <28> stop_word.c(13), 8 bytes at 0x1d71680  	{E0 16 D7 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <27> stop_linked_list.c(14), 16 bytes at 0x1d71620  	{00 00 00 00 00 00 00 00 C0 15 D7 01 00 00 00 00 ................}
+unfreed: <26> stop_linked_list.c(40), 16 bytes at 0x1d715c0  	{00 15 D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <25> stop_word.c(15), 3 bytes at 0x1d71560  	{61 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. an.}
+unfreed: <24> stop_word.c(13), 8 bytes at 0x1d71500  	{60 15 D7 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <23> stop_linked_list.c(14), 16 bytes at 0x1d714a0  	{00 00 00 00 00 00 00 00 40 14 D7 01 00 00 00 00 ........@.......}
+unfreed: <22> stop_linked_list.c(40), 16 bytes at 0x1d71440  	{80 13 D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <21> stop_word.c(15), 2 bytes at 0x1d713e0  	{61 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. a.}
+unfreed: <20> stop_word.c(13), 8 bytes at 0x1d71380  	{E0 13 D7 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <19> stop_linked_list.c(14), 16 bytes at 0x1d71320  	{00 00 00 00 00 00 00 00 C0 12 D7 01 00 00 00 00 ................}
+unfreed: <18> stop_linked_list.c(40), 16 bytes at 0x1d712c0  	{00 12 D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <17> stop_word.c(15), 3 bytes at 0x1d71260  	{74 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. to.}
+unfreed: <16> stop_word.c(13), 8 bytes at 0x1d71200  	{60 12 D7 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <15> stop_linked_list.c(14), 16 bytes at 0x1d711a0  	{00 00 00 00 00 00 00 00 40 11 D7 01 00 00 00 00 ........@.......}
+unfreed: <14> stop_linked_list.c(40), 16 bytes at 0x1d71140  	{80 10 D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <13> stop_word.c(15), 4 bytes at 0x1d710e0  	{79 65 73 00 .. .. .. .. .. .. .. .. .. .. .. .. yes.}
+unfreed: <12> stop_word.c(13), 8 bytes at 0x1d71080  	{E0 10 D7 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <11> stop_linked_list.c(14), 16 bytes at 0x1d71020  	{00 00 00 00 00 00 00 00 C0 0F D7 01 00 00 00 00 ................}
+unfreed: <10> stop_linked_list.c(40), 16 bytes at 0x1d70fc0  	{00 0F D7 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <9> stop_word.c(15), 3 bytes at 0x1d70f60  	{6E 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. no.}
+unfreed: <8> stop_word.c(13), 8 bytes at 0x1d70f00  	{60 0F D7 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <7> stop_linked_list.c(14), 16 bytes at 0x1d70ea0  	{00 00 00 00 00 00 00 00 F0 AA D5 01 00 00 00 00 ................}
+unfreed: <6> stop_linked_list.c(40), 16 bytes at 0x1d5aaf0  	{30 AA D5 01 00 00 00 00 00 00 00 00 00 00 00 00 0...............}
+unfreed: <5> stop_word.c(15), 4 bytes at 0x1d5aa90  	{74 68 65 00 .. .. .. .. .. .. .. .. .. .. .. .. the.}
+unfreed: <4> stop_word.c(13), 8 bytes at 0x1d5aa30  	{90 AA D5 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <3> client.c(35), 88000 bytes at 0x1d5b450  	{60 0C D7 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <2> hash_table.c(22), 560000 bytes at 0x7fc6a55e7050  	{00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <1> hash_table.c(17), 16 bytes at 0x1d5a9d0  	{70 11 01 00 FE FE FE FE 50 70 5E A5 C6 7F 00 00 p.......Pp^.....}
+
+Memory usage statistics (global):
+ N)umber of allocations made: 147
+ L)argest memory usage      : 3641429
+ T)otal of all alloc() calls: 3641429
+ U)nfreed bytes totals      : 3641429
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Thu Apr 28 15:49:00 2016
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Thu Apr 28 15:49:17 2016
+
+unfreed: <147> entry.c(21), 88000 bytes at 0x25ae9f0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <146> entry.c(17), 6 bytes at 0x25ae990  	{73 68 6F 65 73 00 .. .. .. .. .. .. .. .. .. .. shoes.}
+unfreed: <145> entry.c(16), 16 bytes at 0x25ae930  	{90 E9 5A 02 00 00 00 00 F0 E9 5A 02 00 00 00 00 ..Z.......Z.....}
+unfreed: <144> entry.c(21), 88000 bytes at 0x25990e0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <143> entry.c(17), 5 bytes at 0x2599080  	{62 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. boat.}
+unfreed: <142> entry.c(16), 16 bytes at 0x2599020  	{80 90 59 02 00 00 00 00 E0 90 59 02 00 00 00 00 ..Y.......Y.....}
+unfreed: <141> entry.c(21), 88000 bytes at 0x25837d0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <140> entry.c(17), 5 bytes at 0x2583770  	{63 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. coat.}
+unfreed: <139> entry.c(16), 16 bytes at 0x2583710  	{70 37 58 02 00 00 00 00 D0 37 58 02 00 00 00 00 p7X......7X.....}
+unfreed: <138> entry.c(21), 88000 bytes at 0x256dec0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <137> entry.c(17), 5 bytes at 0x256de60  	{72 61 69 6E 00 .. .. .. .. .. .. .. .. .. .. .. rain.}
+unfreed: <136> entry.c(16), 16 bytes at 0x256de00  	{60 DE 56 02 00 00 00 00 C0 DE 56 02 00 00 00 00 `.V.......V.....}
+unfreed: <135> entry.c(21), 88000 bytes at 0x25585b0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <134> entry.c(17), 8 bytes at 0x2558550  	{77 65 61 72 69 6E 67 00 .. .. .. .. .. .. .. .. wearing.}
+unfreed: <133> entry.c(16), 16 bytes at 0x25584f0  	{50 85 55 02 00 00 00 00 B0 85 55 02 00 00 00 00 P.U.......U.....}
+unfreed: <132> entry.c(21), 88000 bytes at 0x2542ca0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <131> entry.c(17), 2 bytes at 0x2542c40  	{6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. m.}
+unfreed: <130> entry.c(16), 16 bytes at 0x2542be0  	{40 2C 54 02 00 00 00 00 A0 2C 54 02 00 00 00 00 @,T......,T.....}
+unfreed: <129> entry.c(21), 88000 bytes at 0x252d390  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <128> entry.c(17), 6 bytes at 0x252d330  	{73 75 6E 6E 79 00 .. .. .. .. .. .. .. .. .. .. sunny.}
+unfreed: <127> entry.c(16), 16 bytes at 0x252d2d0  	{30 D3 52 02 00 00 00 00 90 D3 52 02 00 00 00 00 0.R.......R.....}
+unfreed: <126> entry.c(21), 88000 bytes at 0x2517a80  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <125> entry.c(17), 4 bytes at 0x2517a20  	{77 61 73 00 .. .. .. .. .. .. .. .. .. .. .. .. was.}
+unfreed: <124> entry.c(16), 16 bytes at 0x25179c0  	{20 7A 51 02 00 00 00 00 80 7A 51 02 00 00 00 00  zQ......zQ.....}
+unfreed: <123> entry.c(21), 88000 bytes at 0x2502170  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <122> entry.c(17), 10 bytes at 0x2502110  	{79 65 73 74 65 72 64 61 79 00 .. .. .. .. .. .. yesterday.}
+unfreed: <121> entry.c(16), 16 bytes at 0x25020b0  	{10 21 50 02 00 00 00 00 70 21 50 02 00 00 00 00 .!P.....p!P.....}
+unfreed: <120> entry.c(21), 88000 bytes at 0x24ec860  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <119> entry.c(17), 4 bytes at 0x24ec800  	{6F 75 74 00 .. .. .. .. .. .. .. .. .. .. .. .. out.}
+unfreed: <118> entry.c(16), 16 bytes at 0x24ec7a0  	{00 C8 4E 02 00 00 00 00 60 C8 4E 02 00 00 00 00 ..N.....`.N.....}
+unfreed: <117> entry.c(21), 88000 bytes at 0x24d6f50  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <116> entry.c(17), 8 bytes at 0x24d6ef0  	{72 61 69 6E 69 6E 67 00 .. .. .. .. .. .. .. .. raining.}
+unfreed: <115> entry.c(16), 16 bytes at 0x24d6e90  	{F0 6E 4D 02 00 00 00 00 50 6F 4D 02 00 00 00 00 .nM.....PoM.....}
+unfreed: <114> entry.c(21), 88000 bytes at 0x24c1640  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <113> entry.c(17), 3 bytes at 0x24c15e0  	{69 74 00 .. .. .. .. .. .. .. .. .. .. .. .. .. it.}
+unfreed: <112> entry.c(16), 16 bytes at 0x24c1580  	{E0 15 4C 02 00 00 00 00 40 16 4C 02 00 00 00 00 ..L.....@.L.....}
+unfreed: <111> entry.c(21), 88000 bytes at 0x24abd30  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <110> entry.c(17), 6 bytes at 0x24abcd0  	{57 57 54 57 4F 00 .. .. .. .. .. .. .. .. .. .. WWTWO.}
+unfreed: <109> entry.c(16), 16 bytes at 0x24abc70  	{D0 BC 4A 02 00 00 00 00 30 BD 4A 02 00 00 00 00 ..J.....0.J.....}
+unfreed: <108> entry.c(21), 88000 bytes at 0x2496420  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <107> entry.c(17), 6 bytes at 0x24963c0  	{61 62 6F 75 74 00 .. .. .. .. .. .. .. .. .. .. about.}
+unfreed: <106> entry.c(16), 16 bytes at 0x2496360  	{C0 63 49 02 00 00 00 00 20 64 49 02 00 00 00 00 .cI..... dI.....}
+unfreed: <105> entry.c(21), 88000 bytes at 0x2480b10  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <104> entry.c(17), 8 bytes at 0x2480ab0  	{74 61 6C 6B 69 6E 67 00 .. .. .. .. .. .. .. .. talking.}
+unfreed: <103> entry.c(16), 16 bytes at 0x2480a50  	{B0 0A 48 02 00 00 00 00 10 0B 48 02 00 00 00 00 ..H.......H.....}
+unfreed: <102> entry.c(21), 88000 bytes at 0x246b200  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <101> entry.c(17), 6 bytes at 0x246b1a0  	{63 6C 61 73 73 00 .. .. .. .. .. .. .. .. .. .. class.}
+unfreed: <100> entry.c(16), 16 bytes at 0x246b140  	{A0 B1 46 02 00 00 00 00 00 B2 46 02 00 00 00 00 ..F.......F.....}
+unfreed: <99> entry.c(21), 88000 bytes at 0x24558f0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <98> entry.c(17), 8 bytes at 0x2455890  	{68 69 73 74 6F 72 79 00 .. .. .. .. .. .. .. .. history.}
+unfreed: <97> entry.c(16), 16 bytes at 0x2455830  	{90 58 45 02 00 00 00 00 F0 58 45 02 00 00 00 00 .XE......XE.....}
+unfreed: <96> entry.c(21), 88000 bytes at 0x243ffe0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <95> entry.c(17), 4 bytes at 0x243ff80  	{66 6F 72 00 .. .. .. .. .. .. .. .. .. .. .. .. for.}
+unfreed: <94> entry.c(16), 16 bytes at 0x243ff20  	{80 FF 43 02 00 00 00 00 E0 FF 43 02 00 00 00 00 ..C.......C.....}
+unfreed: <93> entry.c(21), 88000 bytes at 0x242a6d0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <92> entry.c(17), 10 bytes at 0x242a670  	{63 6C 61 73 73 72 6F 6F 6D 00 .. .. .. .. .. .. classroom.}
+unfreed: <91> entry.c(16), 16 bytes at 0x242a610  	{70 A6 42 02 00 00 00 00 D0 A6 42 02 00 00 00 00 p.B.......B.....}
+unfreed: <90> entry.c(21), 88000 bytes at 0x2414dc0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <89> entry.c(17), 3 bytes at 0x2414d60  	{69 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. in.}
+unfreed: <88> entry.c(16), 16 bytes at 0x2414d00  	{60 4D 41 02 00 00 00 00 C0 4D 41 02 00 00 00 00 `MA......MA.....}
+unfreed: <87> entry.c(21), 88000 bytes at 0x23ff4b0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <86> entry.c(17), 3 bytes at 0x23ff450  	{61 6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. am.}
+unfreed: <85> entry.c(16), 16 bytes at 0x23ff3f0  	{50 F4 3F 02 00 00 00 00 B0 F4 3F 02 00 00 00 00 P.?.......?.....}
+unfreed: <84> entry.c(21), 88000 bytes at 0x23e9ba0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <83> entry.c(17), 2 bytes at 0x23e9b40  	{49 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. I.}
+unfreed: <82> entry.c(16), 16 bytes at 0x23e9ae0  	{40 9B 3E 02 00 00 00 00 A0 9B 3E 02 00 00 00 00 @.>.......>.....}
+unfreed: <81> entry.c(21), 88000 bytes at 0x23d4290  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <80> entry.c(17), 5 bytes at 0x23d4230  	{6E 69 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. nine.}
+unfreed: <79> entry.c(16), 16 bytes at 0x23d41d0  	{30 42 3D 02 00 00 00 00 90 42 3D 02 00 00 00 00 0B=......B=.....}
+unfreed: <78> entry.c(21), 88000 bytes at 0x23be980  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <77> entry.c(17), 5 bytes at 0x23be920  	{66 6F 75 72 00 .. .. .. .. .. .. .. .. .. .. .. four.}
+unfreed: <76> entry.c(16), 16 bytes at 0x23be8c0  	{20 E9 3B 02 00 00 00 00 80 E9 3B 02 00 00 00 00  .;.......;.....}
+unfreed: <75> entry.c(21), 88000 bytes at 0x23a9070  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <74> entry.c(17), 5 bytes at 0x23a9010  	{66 69 76 65 00 .. .. .. .. .. .. .. .. .. .. .. five.}
+unfreed: <73> entry.c(16), 16 bytes at 0x23a8fb0  	{10 90 3A 02 00 00 00 00 70 90 3A 02 00 00 00 00 ..:.....p.:.....}
+unfreed: <72> entry.c(21), 88000 bytes at 0x2393760  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <71> entry.c(17), 4 bytes at 0x2393700  	{6F 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. .. one.}
+unfreed: <70> entry.c(16), 16 bytes at 0x23936a0  	{00 37 39 02 00 00 00 00 60 37 39 02 00 00 00 00 .79.....`79.....}
+unfreed: <69> entry.c(21), 88000 bytes at 0x237de50  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <68> entry.c(17), 5 bytes at 0x237ddf0  	{4A 75 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. June.}
+unfreed: <67> entry.c(16), 16 bytes at 0x237dd90  	{F0 DD 37 02 00 00 00 00 50 DE 37 02 00 00 00 00 ..7.....P.7.....}
+unfreed: <66> entry.c(21), 88000 bytes at 0x2368540  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <65> entry.c(17), 4 bytes at 0x23684e0  	{74 6F 64 00 .. .. .. .. .. .. .. .. .. .. .. .. tod.}
+unfreed: <64> entry.c(16), 16 bytes at 0x2368480  	{E0 84 36 02 00 00 00 00 40 85 36 02 00 00 00 00 ..6.....@.6.....}
+unfreed: <63> entry.c(21), 88000 bytes at 0x2352c30  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <62> entry.c(17), 3 bytes at 0x2352bd0  	{69 73 00 .. .. .. .. .. .. .. .. .. .. .. .. .. is.}
+unfreed: <61> entry.c(16), 16 bytes at 0x2352b70  	{D0 2B 35 02 00 00 00 00 30 2C 35 02 00 00 00 00 .+5.....0,5.....}
+unfreed: <60> entry.c(21), 88000 bytes at 0x233d320  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <59> entry.c(17), 3 bytes at 0x233d2c0  	{61 79 00 .. .. .. .. .. .. .. .. .. .. .. .. .. ay.}
+unfreed: <58> entry.c(16), 16 bytes at 0x233d260  	{C0 D2 33 02 00 00 00 00 20 D3 33 02 00 00 00 00 ..3..... .3.....}
+unfreed: <57> entry.c(21), 88000 bytes at 0x2327a10  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <56> entry.c(17), 2 bytes at 0x23279b0  	{64 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. d.}
+unfreed: <55> entry.c(16), 16 bytes at 0x2327950  	{B0 79 32 02 00 00 00 00 10 7A 32 02 00 00 00 00 .y2......z2.....}
+unfreed: <54> entry.c(21), 88000 bytes at 0x2312100  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <53> entry.c(17), 7 bytes at 0x23120a0  	{6C 6F 79 6F 6C 61 00 .. .. .. .. .. .. .. .. .. loyola.}
+unfreed: <52> entry.c(16), 16 bytes at 0x2312040  	{A0 20 31 02 00 00 00 00 00 21 31 02 00 00 00 00 . 1......!1.....}
+unfreed: <51> entry.c(21), 88000 bytes at 0x22fc7f0  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <50> entry.c(17), 3 bytes at 0x22fc790  	{6F 66 00 .. .. .. .. .. .. .. .. .. .. .. .. .. of.}
+unfreed: <49> entry.c(16), 16 bytes at 0x22fc730  	{90 C7 2F 02 00 00 00 00 F0 C7 2F 02 00 00 00 00 ../......./.....}
+unfreed: <48> entry.c(21), 88000 bytes at 0x22e6f20  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <47> entry.c(17), 5 bytes at 0x22e6ec0  	{77 6F 72 64 00 .. .. .. .. .. .. .. .. .. .. .. word.}
+unfreed: <46> entry.c(16), 16 bytes at 0x22e5e20  	{C0 6E 2E 02 00 00 00 00 20 6F 2E 02 00 00 00 00 .n...... o......}
+unfreed: <45> client.c(54), 257 bytes at 0x22e5cc0  	{73 68 6F 65 73 00 67 00 79 00 00 00 00 00 00 00 shoes.g.y.......}
+unfreed: <44> client.c(53), 6 bytes at 0x22e5c60  	{31 2E 74 78 74 00 .. .. .. .. .. .. .. .. .. .. 1.txt.}
+unfreed: <43> stop_linked_list.c(14), 16 bytes at 0x22e6c20  	{00 00 00 00 00 00 00 00 C0 6B 2E 02 00 00 00 00 .........k......}
+unfreed: <42> stop_linked_list.c(40), 16 bytes at 0x22e6bc0  	{00 6B 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .k..............}
+unfreed: <41> stop_word.c(15), 4 bytes at 0x22e6b60  	{61 72 65 00 .. .. .. .. .. .. .. .. .. .. .. .. are.}
+unfreed: <40> stop_word.c(13), 8 bytes at 0x22e6b00  	{60 6B 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. `k......}
+unfreed: <39> stop_linked_list.c(14), 16 bytes at 0x22e6aa0  	{00 00 00 00 00 00 00 00 40 6A 2E 02 00 00 00 00 ........@j......}
+unfreed: <38> stop_linked_list.c(40), 16 bytes at 0x22e6a40  	{80 69 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .i..............}
+unfreed: <37> stop_word.c(15), 3 bytes at 0x22e69e0  	{77 65 00 .. .. .. .. .. .. .. .. .. .. .. .. .. we.}
+unfreed: <36> stop_word.c(13), 8 bytes at 0x22e6980  	{E0 69 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. .i......}
+unfreed: <35> stop_linked_list.c(14), 16 bytes at 0x22e6920  	{00 00 00 00 00 00 00 00 C0 68 2E 02 00 00 00 00 .........h......}
+unfreed: <34> stop_linked_list.c(40), 16 bytes at 0x22e68c0  	{00 68 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .h..............}
+unfreed: <33> stop_word.c(15), 3 bytes at 0x22e6860  	{67 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. go.}
+unfreed: <32> stop_word.c(13), 8 bytes at 0x22e6800  	{60 68 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. `h......}
+unfreed: <31> stop_linked_list.c(14), 16 bytes at 0x22e67a0  	{00 00 00 00 00 00 00 00 40 67 2E 02 00 00 00 00 ........@g......}
+unfreed: <30> stop_linked_list.c(40), 16 bytes at 0x22e6740  	{80 66 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .f..............}
+unfreed: <29> stop_word.c(15), 4 bytes at 0x22e66e0  	{61 6E 64 00 .. .. .. .. .. .. .. .. .. .. .. .. and.}
+unfreed: <28> stop_word.c(13), 8 bytes at 0x22e6680  	{E0 66 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. .f......}
+unfreed: <27> stop_linked_list.c(14), 16 bytes at 0x22e6620  	{00 00 00 00 00 00 00 00 C0 65 2E 02 00 00 00 00 .........e......}
+unfreed: <26> stop_linked_list.c(40), 16 bytes at 0x22e65c0  	{00 65 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .e..............}
+unfreed: <25> stop_word.c(15), 3 bytes at 0x22e6560  	{61 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. an.}
+unfreed: <24> stop_word.c(13), 8 bytes at 0x22e6500  	{60 65 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. `e......}
+unfreed: <23> stop_linked_list.c(14), 16 bytes at 0x22e64a0  	{00 00 00 00 00 00 00 00 40 64 2E 02 00 00 00 00 ........@d......}
+unfreed: <22> stop_linked_list.c(40), 16 bytes at 0x22e6440  	{80 63 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .c..............}
+unfreed: <21> stop_word.c(15), 2 bytes at 0x22e63e0  	{61 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. a.}
+unfreed: <20> stop_word.c(13), 8 bytes at 0x22e6380  	{E0 63 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. .c......}
+unfreed: <19> stop_linked_list.c(14), 16 bytes at 0x22e6320  	{00 00 00 00 00 00 00 00 C0 62 2E 02 00 00 00 00 .........b......}
+unfreed: <18> stop_linked_list.c(40), 16 bytes at 0x22e62c0  	{00 62 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .b..............}
+unfreed: <17> stop_word.c(15), 3 bytes at 0x22e6260  	{74 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. to.}
+unfreed: <16> stop_word.c(13), 8 bytes at 0x22e6200  	{60 62 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. `b......}
+unfreed: <15> stop_linked_list.c(14), 16 bytes at 0x22e61a0  	{00 00 00 00 00 00 00 00 40 61 2E 02 00 00 00 00 ........@a......}
+unfreed: <14> stop_linked_list.c(40), 16 bytes at 0x22e6140  	{80 60 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 .`..............}
+unfreed: <13> stop_word.c(15), 4 bytes at 0x22e60e0  	{79 65 73 00 .. .. .. .. .. .. .. .. .. .. .. .. yes.}
+unfreed: <12> stop_word.c(13), 8 bytes at 0x22e6080  	{E0 60 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. .`......}
+unfreed: <11> stop_linked_list.c(14), 16 bytes at 0x22e6020  	{00 00 00 00 00 00 00 00 C0 5F 2E 02 00 00 00 00 ........._......}
+unfreed: <10> stop_linked_list.c(40), 16 bytes at 0x22e5fc0  	{00 5F 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 ._..............}
+unfreed: <9> stop_word.c(15), 3 bytes at 0x22e5f60  	{6E 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. no.}
+unfreed: <8> stop_word.c(13), 8 bytes at 0x22e5f00  	{60 5F 2E 02 00 00 00 00 .. .. .. .. .. .. .. .. `_......}
+unfreed: <7> stop_linked_list.c(14), 16 bytes at 0x22e5ea0  	{00 00 00 00 00 00 00 00 F0 FA 2C 02 00 00 00 00 ..........,.....}
+unfreed: <6> stop_linked_list.c(40), 16 bytes at 0x22cfaf0  	{30 FA 2C 02 00 00 00 00 00 00 00 00 00 00 00 00 0.,.............}
+unfreed: <5> stop_word.c(15), 4 bytes at 0x22cfa90  	{74 68 65 00 .. .. .. .. .. .. .. .. .. .. .. .. the.}
+unfreed: <4> stop_word.c(13), 8 bytes at 0x22cfa30  	{90 FA 2C 02 00 00 00 00 .. .. .. .. .. .. .. .. ..,.....}
+unfreed: <3> client.c(35), 88000 bytes at 0x22d0450  	{60 5C 2E 02 00 00 00 00 00 00 00 00 00 00 00 00 `\..............}
+unfreed: <2> hash_table.c(22), 560000 bytes at 0x7fae50128050  	{00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <1> hash_table.c(17), 16 bytes at 0x22cf9d0  	{70 11 01 00 FE FE FE FE 50 80 12 50 AE 7F 00 00 p.......P..P....}
+
+Memory usage statistics (global):
+ N)umber of allocations made: 147
+ L)argest memory usage      : 3641429
+ T)otal of all alloc() calls: 3641429
+ U)nfreed bytes totals      : 3641429
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Thu Apr 28 15:50:32 2016
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Thu Apr 28 15:50:44 2016
+
+unfreed: <147> entry.c(21), 88000 bytes at 0x1c029f0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <146> entry.c(17), 6 bytes at 0x1c02990  	{73 68 6F 65 73 00 .. .. .. .. .. .. .. .. .. .. shoes.}
+unfreed: <145> entry.c(16), 16 bytes at 0x1c02930  	{90 29 C0 01 00 00 00 00 F0 29 C0 01 00 00 00 00 .).......)......}
+unfreed: <144> entry.c(21), 88000 bytes at 0x1bed0e0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <143> entry.c(17), 5 bytes at 0x1bed080  	{62 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. boat.}
+unfreed: <142> entry.c(16), 16 bytes at 0x1bed020  	{80 D0 BE 01 00 00 00 00 E0 D0 BE 01 00 00 00 00 ................}
+unfreed: <141> entry.c(21), 88000 bytes at 0x1bd77d0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <140> entry.c(17), 5 bytes at 0x1bd7770  	{63 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. coat.}
+unfreed: <139> entry.c(16), 16 bytes at 0x1bd7710  	{70 77 BD 01 00 00 00 00 D0 77 BD 01 00 00 00 00 pw.......w......}
+unfreed: <138> entry.c(21), 88000 bytes at 0x1bc1ec0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <137> entry.c(17), 5 bytes at 0x1bc1e60  	{72 61 69 6E 00 .. .. .. .. .. .. .. .. .. .. .. rain.}
+unfreed: <136> entry.c(16), 16 bytes at 0x1bc1e00  	{60 1E BC 01 00 00 00 00 C0 1E BC 01 00 00 00 00 `...............}
+unfreed: <135> entry.c(21), 88000 bytes at 0x1bac5b0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <134> entry.c(17), 8 bytes at 0x1bac550  	{77 65 61 72 69 6E 67 00 .. .. .. .. .. .. .. .. wearing.}
+unfreed: <133> entry.c(16), 16 bytes at 0x1bac4f0  	{50 C5 BA 01 00 00 00 00 B0 C5 BA 01 00 00 00 00 P...............}
+unfreed: <132> entry.c(21), 88000 bytes at 0x1b96ca0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <131> entry.c(17), 2 bytes at 0x1b96c40  	{6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. m.}
+unfreed: <130> entry.c(16), 16 bytes at 0x1b96be0  	{40 6C B9 01 00 00 00 00 A0 6C B9 01 00 00 00 00 @l.......l......}
+unfreed: <129> entry.c(21), 88000 bytes at 0x1b81390  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <128> entry.c(17), 6 bytes at 0x1b81330  	{73 75 6E 6E 79 00 .. .. .. .. .. .. .. .. .. .. sunny.}
+unfreed: <127> entry.c(16), 16 bytes at 0x1b812d0  	{30 13 B8 01 00 00 00 00 90 13 B8 01 00 00 00 00 0...............}
+unfreed: <126> entry.c(21), 88000 bytes at 0x1b6ba80  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <125> entry.c(17), 4 bytes at 0x1b6ba20  	{77 61 73 00 .. .. .. .. .. .. .. .. .. .. .. .. was.}
+unfreed: <124> entry.c(16), 16 bytes at 0x1b6b9c0  	{20 BA B6 01 00 00 00 00 80 BA B6 01 00 00 00 00  ...............}
+unfreed: <123> entry.c(21), 88000 bytes at 0x1b56170  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <122> entry.c(17), 10 bytes at 0x1b56110  	{79 65 73 74 65 72 64 61 79 00 .. .. .. .. .. .. yesterday.}
+unfreed: <121> entry.c(16), 16 bytes at 0x1b560b0  	{10 61 B5 01 00 00 00 00 70 61 B5 01 00 00 00 00 .a......pa......}
+unfreed: <120> entry.c(21), 88000 bytes at 0x1b40860  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <119> entry.c(17), 4 bytes at 0x1b40800  	{6F 75 74 00 .. .. .. .. .. .. .. .. .. .. .. .. out.}
+unfreed: <118> entry.c(16), 16 bytes at 0x1b407a0  	{00 08 B4 01 00 00 00 00 60 08 B4 01 00 00 00 00 ........`.......}
+unfreed: <117> entry.c(21), 88000 bytes at 0x1b2af50  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <116> entry.c(17), 8 bytes at 0x1b2aef0  	{72 61 69 6E 69 6E 67 00 .. .. .. .. .. .. .. .. raining.}
+unfreed: <115> entry.c(16), 16 bytes at 0x1b2ae90  	{F0 AE B2 01 00 00 00 00 50 AF B2 01 00 00 00 00 ........P.......}
+unfreed: <114> entry.c(21), 88000 bytes at 0x1b15640  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <113> entry.c(17), 3 bytes at 0x1b155e0  	{69 74 00 .. .. .. .. .. .. .. .. .. .. .. .. .. it.}
+unfreed: <112> entry.c(16), 16 bytes at 0x1b15580  	{E0 55 B1 01 00 00 00 00 40 56 B1 01 00 00 00 00 .U......@V......}
+unfreed: <111> entry.c(21), 88000 bytes at 0x1affd30  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <110> entry.c(17), 6 bytes at 0x1affcd0  	{57 57 54 57 4F 00 .. .. .. .. .. .. .. .. .. .. WWTWO.}
+unfreed: <109> entry.c(16), 16 bytes at 0x1affc70  	{D0 FC AF 01 00 00 00 00 30 FD AF 01 00 00 00 00 ........0.......}
+unfreed: <108> entry.c(21), 88000 bytes at 0x1aea420  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <107> entry.c(17), 6 bytes at 0x1aea3c0  	{61 62 6F 75 74 00 .. .. .. .. .. .. .. .. .. .. about.}
+unfreed: <106> entry.c(16), 16 bytes at 0x1aea360  	{C0 A3 AE 01 00 00 00 00 20 A4 AE 01 00 00 00 00 ........ .......}
+unfreed: <105> entry.c(21), 88000 bytes at 0x1ad4b10  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <104> entry.c(17), 8 bytes at 0x1ad4ab0  	{74 61 6C 6B 69 6E 67 00 .. .. .. .. .. .. .. .. talking.}
+unfreed: <103> entry.c(16), 16 bytes at 0x1ad4a50  	{B0 4A AD 01 00 00 00 00 10 4B AD 01 00 00 00 00 .J.......K......}
+unfreed: <102> entry.c(21), 88000 bytes at 0x1abf200  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <101> entry.c(17), 6 bytes at 0x1abf1a0  	{63 6C 61 73 73 00 .. .. .. .. .. .. .. .. .. .. class.}
+unfreed: <100> entry.c(16), 16 bytes at 0x1abf140  	{A0 F1 AB 01 00 00 00 00 00 F2 AB 01 00 00 00 00 ................}
+unfreed: <99> entry.c(21), 88000 bytes at 0x1aa98f0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <98> entry.c(17), 8 bytes at 0x1aa9890  	{68 69 73 74 6F 72 79 00 .. .. .. .. .. .. .. .. history.}
+unfreed: <97> entry.c(16), 16 bytes at 0x1aa9830  	{90 98 AA 01 00 00 00 00 F0 98 AA 01 00 00 00 00 ................}
+unfreed: <96> entry.c(21), 88000 bytes at 0x1a93fe0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <95> entry.c(17), 4 bytes at 0x1a93f80  	{66 6F 72 00 .. .. .. .. .. .. .. .. .. .. .. .. for.}
+unfreed: <94> entry.c(16), 16 bytes at 0x1a93f20  	{80 3F A9 01 00 00 00 00 E0 3F A9 01 00 00 00 00 .?.......?......}
+unfreed: <93> entry.c(21), 88000 bytes at 0x1a7e6d0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <92> entry.c(17), 10 bytes at 0x1a7e670  	{63 6C 61 73 73 72 6F 6F 6D 00 .. .. .. .. .. .. classroom.}
+unfreed: <91> entry.c(16), 16 bytes at 0x1a7e610  	{70 E6 A7 01 00 00 00 00 D0 E6 A7 01 00 00 00 00 p...............}
+unfreed: <90> entry.c(21), 88000 bytes at 0x1a68dc0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <89> entry.c(17), 3 bytes at 0x1a68d60  	{69 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. in.}
+unfreed: <88> entry.c(16), 16 bytes at 0x1a68d00  	{60 8D A6 01 00 00 00 00 C0 8D A6 01 00 00 00 00 `...............}
+unfreed: <87> entry.c(21), 88000 bytes at 0x1a534b0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <86> entry.c(17), 3 bytes at 0x1a53450  	{61 6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. am.}
+unfreed: <85> entry.c(16), 16 bytes at 0x1a533f0  	{50 34 A5 01 00 00 00 00 B0 34 A5 01 00 00 00 00 P4.......4......}
+unfreed: <84> entry.c(21), 88000 bytes at 0x1a3dba0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <83> entry.c(17), 2 bytes at 0x1a3db40  	{49 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. I.}
+unfreed: <82> entry.c(16), 16 bytes at 0x1a3dae0  	{40 DB A3 01 00 00 00 00 A0 DB A3 01 00 00 00 00 @...............}
+unfreed: <81> entry.c(21), 88000 bytes at 0x1a28290  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <80> entry.c(17), 5 bytes at 0x1a28230  	{6E 69 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. nine.}
+unfreed: <79> entry.c(16), 16 bytes at 0x1a281d0  	{30 82 A2 01 00 00 00 00 90 82 A2 01 00 00 00 00 0...............}
+unfreed: <78> entry.c(21), 88000 bytes at 0x1a12980  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <77> entry.c(17), 5 bytes at 0x1a12920  	{66 6F 75 72 00 .. .. .. .. .. .. .. .. .. .. .. four.}
+unfreed: <76> entry.c(16), 16 bytes at 0x1a128c0  	{20 29 A1 01 00 00 00 00 80 29 A1 01 00 00 00 00  ).......)......}
+unfreed: <75> entry.c(21), 88000 bytes at 0x19fd070  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <74> entry.c(17), 5 bytes at 0x19fd010  	{66 69 76 65 00 .. .. .. .. .. .. .. .. .. .. .. five.}
+unfreed: <73> entry.c(16), 16 bytes at 0x19fcfb0  	{10 D0 9F 01 00 00 00 00 70 D0 9F 01 00 00 00 00 ........p.......}
+unfreed: <72> entry.c(21), 88000 bytes at 0x19e7760  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <71> entry.c(17), 4 bytes at 0x19e7700  	{6F 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. .. one.}
+unfreed: <70> entry.c(16), 16 bytes at 0x19e76a0  	{00 77 9E 01 00 00 00 00 60 77 9E 01 00 00 00 00 .w......`w......}
+unfreed: <69> entry.c(21), 88000 bytes at 0x19d1e50  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <68> entry.c(17), 5 bytes at 0x19d1df0  	{4A 75 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. June.}
+unfreed: <67> entry.c(16), 16 bytes at 0x19d1d90  	{F0 1D 9D 01 00 00 00 00 50 1E 9D 01 00 00 00 00 ........P.......}
+unfreed: <66> entry.c(21), 88000 bytes at 0x19bc540  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <65> entry.c(17), 4 bytes at 0x19bc4e0  	{74 6F 64 00 .. .. .. .. .. .. .. .. .. .. .. .. tod.}
+unfreed: <64> entry.c(16), 16 bytes at 0x19bc480  	{E0 C4 9B 01 00 00 00 00 40 C5 9B 01 00 00 00 00 ........@.......}
+unfreed: <63> entry.c(21), 88000 bytes at 0x19a6c30  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <62> entry.c(17), 3 bytes at 0x19a6bd0  	{69 73 00 .. .. .. .. .. .. .. .. .. .. .. .. .. is.}
+unfreed: <61> entry.c(16), 16 bytes at 0x19a6b70  	{D0 6B 9A 01 00 00 00 00 30 6C 9A 01 00 00 00 00 .k......0l......}
+unfreed: <60> entry.c(21), 88000 bytes at 0x1991320  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <59> entry.c(17), 3 bytes at 0x19912c0  	{61 79 00 .. .. .. .. .. .. .. .. .. .. .. .. .. ay.}
+unfreed: <58> entry.c(16), 16 bytes at 0x1991260  	{C0 12 99 01 00 00 00 00 20 13 99 01 00 00 00 00 ........ .......}
+unfreed: <57> entry.c(21), 88000 bytes at 0x197ba10  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <56> entry.c(17), 2 bytes at 0x197b9b0  	{64 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. d.}
+unfreed: <55> entry.c(16), 16 bytes at 0x197b950  	{B0 B9 97 01 00 00 00 00 10 BA 97 01 00 00 00 00 ................}
+unfreed: <54> entry.c(21), 88000 bytes at 0x1966100  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <53> entry.c(17), 7 bytes at 0x19660a0  	{6C 6F 79 6F 6C 61 00 .. .. .. .. .. .. .. .. .. loyola.}
+unfreed: <52> entry.c(16), 16 bytes at 0x1966040  	{A0 60 96 01 00 00 00 00 00 61 96 01 00 00 00 00 .`.......a......}
+unfreed: <51> entry.c(21), 88000 bytes at 0x19507f0  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <50> entry.c(17), 3 bytes at 0x1950790  	{6F 66 00 .. .. .. .. .. .. .. .. .. .. .. .. .. of.}
+unfreed: <49> entry.c(16), 16 bytes at 0x1950730  	{90 07 95 01 00 00 00 00 F0 07 95 01 00 00 00 00 ................}
+unfreed: <48> entry.c(21), 88000 bytes at 0x193af20  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <47> entry.c(17), 5 bytes at 0x193aec0  	{77 6F 72 64 00 .. .. .. .. .. .. .. .. .. .. .. word.}
+unfreed: <46> entry.c(16), 16 bytes at 0x1939e20  	{C0 AE 93 01 00 00 00 00 20 AF 93 01 00 00 00 00 ........ .......}
+unfreed: <45> client.c(54), 257 bytes at 0x1939cc0  	{73 68 6F 65 73 00 67 00 79 00 00 00 00 00 00 00 shoes.g.y.......}
+unfreed: <44> client.c(53), 6 bytes at 0x1939c60  	{31 2E 74 78 74 00 .. .. .. .. .. .. .. .. .. .. 1.txt.}
+unfreed: <43> stop_linked_list.c(14), 16 bytes at 0x193ac20  	{00 00 00 00 00 00 00 00 C0 AB 93 01 00 00 00 00 ................}
+unfreed: <42> stop_linked_list.c(40), 16 bytes at 0x193abc0  	{00 AB 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <41> stop_word.c(15), 4 bytes at 0x193ab60  	{61 72 65 00 .. .. .. .. .. .. .. .. .. .. .. .. are.}
+unfreed: <40> stop_word.c(13), 8 bytes at 0x193ab00  	{60 AB 93 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <39> stop_linked_list.c(14), 16 bytes at 0x193aaa0  	{00 00 00 00 00 00 00 00 40 AA 93 01 00 00 00 00 ........@.......}
+unfreed: <38> stop_linked_list.c(40), 16 bytes at 0x193aa40  	{80 A9 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <37> stop_word.c(15), 3 bytes at 0x193a9e0  	{77 65 00 .. .. .. .. .. .. .. .. .. .. .. .. .. we.}
+unfreed: <36> stop_word.c(13), 8 bytes at 0x193a980  	{E0 A9 93 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <35> stop_linked_list.c(14), 16 bytes at 0x193a920  	{00 00 00 00 00 00 00 00 C0 A8 93 01 00 00 00 00 ................}
+unfreed: <34> stop_linked_list.c(40), 16 bytes at 0x193a8c0  	{00 A8 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <33> stop_word.c(15), 3 bytes at 0x193a860  	{67 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. go.}
+unfreed: <32> stop_word.c(13), 8 bytes at 0x193a800  	{60 A8 93 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <31> stop_linked_list.c(14), 16 bytes at 0x193a7a0  	{00 00 00 00 00 00 00 00 40 A7 93 01 00 00 00 00 ........@.......}
+unfreed: <30> stop_linked_list.c(40), 16 bytes at 0x193a740  	{80 A6 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <29> stop_word.c(15), 4 bytes at 0x193a6e0  	{61 6E 64 00 .. .. .. .. .. .. .. .. .. .. .. .. and.}
+unfreed: <28> stop_word.c(13), 8 bytes at 0x193a680  	{E0 A6 93 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <27> stop_linked_list.c(14), 16 bytes at 0x193a620  	{00 00 00 00 00 00 00 00 C0 A5 93 01 00 00 00 00 ................}
+unfreed: <26> stop_linked_list.c(40), 16 bytes at 0x193a5c0  	{00 A5 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <25> stop_word.c(15), 3 bytes at 0x193a560  	{61 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. an.}
+unfreed: <24> stop_word.c(13), 8 bytes at 0x193a500  	{60 A5 93 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <23> stop_linked_list.c(14), 16 bytes at 0x193a4a0  	{00 00 00 00 00 00 00 00 40 A4 93 01 00 00 00 00 ........@.......}
+unfreed: <22> stop_linked_list.c(40), 16 bytes at 0x193a440  	{80 A3 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <21> stop_word.c(15), 2 bytes at 0x193a3e0  	{61 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. a.}
+unfreed: <20> stop_word.c(13), 8 bytes at 0x193a380  	{E0 A3 93 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <19> stop_linked_list.c(14), 16 bytes at 0x193a320  	{00 00 00 00 00 00 00 00 C0 A2 93 01 00 00 00 00 ................}
+unfreed: <18> stop_linked_list.c(40), 16 bytes at 0x193a2c0  	{00 A2 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <17> stop_word.c(15), 3 bytes at 0x193a260  	{74 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. to.}
+unfreed: <16> stop_word.c(13), 8 bytes at 0x193a200  	{60 A2 93 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <15> stop_linked_list.c(14), 16 bytes at 0x193a1a0  	{00 00 00 00 00 00 00 00 40 A1 93 01 00 00 00 00 ........@.......}
+unfreed: <14> stop_linked_list.c(40), 16 bytes at 0x193a140  	{80 A0 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <13> stop_word.c(15), 4 bytes at 0x193a0e0  	{79 65 73 00 .. .. .. .. .. .. .. .. .. .. .. .. yes.}
+unfreed: <12> stop_word.c(13), 8 bytes at 0x193a080  	{E0 A0 93 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <11> stop_linked_list.c(14), 16 bytes at 0x193a020  	{00 00 00 00 00 00 00 00 C0 9F 93 01 00 00 00 00 ................}
+unfreed: <10> stop_linked_list.c(40), 16 bytes at 0x1939fc0  	{00 9F 93 01 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <9> stop_word.c(15), 3 bytes at 0x1939f60  	{6E 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. no.}
+unfreed: <8> stop_word.c(13), 8 bytes at 0x1939f00  	{60 9F 93 01 00 00 00 00 .. .. .. .. .. .. .. .. `.......}
+unfreed: <7> stop_linked_list.c(14), 16 bytes at 0x1939ea0  	{00 00 00 00 00 00 00 00 F0 3A 92 01 00 00 00 00 .........:......}
+unfreed: <6> stop_linked_list.c(40), 16 bytes at 0x1923af0  	{30 3A 92 01 00 00 00 00 00 00 00 00 00 00 00 00 0:..............}
+unfreed: <5> stop_word.c(15), 4 bytes at 0x1923a90  	{74 68 65 00 .. .. .. .. .. .. .. .. .. .. .. .. the.}
+unfreed: <4> stop_word.c(13), 8 bytes at 0x1923a30  	{90 3A 92 01 00 00 00 00 .. .. .. .. .. .. .. .. .:......}
+unfreed: <3> client.c(35), 88000 bytes at 0x1924450  	{60 9C 93 01 00 00 00 00 00 00 00 00 00 00 00 00 `...............}
+unfreed: <2> hash_table.c(22), 560000 bytes at 0x7ff94d5d2050  	{00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <1> hash_table.c(17), 16 bytes at 0x19239d0  	{70 11 01 00 FE FE FE FE 50 20 5D 4D F9 7F 00 00 p.......P ]M....}
+
+Memory usage statistics (global):
+ N)umber of allocations made: 147
+ L)argest memory usage      : 3641429
+ T)otal of all alloc() calls: 3641429
+ U)nfreed bytes totals      : 3641429
+
+============= MEMWATCH 2.71 Copyright (C) 1992-1999 Johan Lindh =============
+
+Started at Thu Apr 28 16:16:30 2016
+
+Modes: __STDC__ 64-bit mwDWORD==(unsigned int)
+mwROUNDALLOC==8 sizeof(mwData)==56 mwDataSize==56
+
+
+Stopped at Thu Apr 28 16:16:43 2016
+
+unfreed: <147> entry.c(21), 88000 bytes at 0x12fd9f0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <146> entry.c(17), 6 bytes at 0x12fd990  	{73 68 6F 65 73 00 .. .. .. .. .. .. .. .. .. .. shoes.}
+unfreed: <145> entry.c(16), 16 bytes at 0x12fd930  	{90 D9 2F 01 00 00 00 00 F0 D9 2F 01 00 00 00 00 ../......./.....}
+unfreed: <144> entry.c(21), 88000 bytes at 0x12e80e0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <143> entry.c(17), 5 bytes at 0x12e8080  	{62 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. boat.}
+unfreed: <142> entry.c(16), 16 bytes at 0x12e8020  	{80 80 2E 01 00 00 00 00 E0 80 2E 01 00 00 00 00 ................}
+unfreed: <141> entry.c(21), 88000 bytes at 0x12d27d0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <140> entry.c(17), 5 bytes at 0x12d2770  	{63 6F 61 74 00 .. .. .. .. .. .. .. .. .. .. .. coat.}
+unfreed: <139> entry.c(16), 16 bytes at 0x12d2710  	{70 27 2D 01 00 00 00 00 D0 27 2D 01 00 00 00 00 p'-......'-.....}
+unfreed: <138> entry.c(21), 88000 bytes at 0x12bcec0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <137> entry.c(17), 5 bytes at 0x12bce60  	{72 61 69 6E 00 .. .. .. .. .. .. .. .. .. .. .. rain.}
+unfreed: <136> entry.c(16), 16 bytes at 0x12bce00  	{60 CE 2B 01 00 00 00 00 C0 CE 2B 01 00 00 00 00 `.+.......+.....}
+unfreed: <135> entry.c(21), 88000 bytes at 0x12a75b0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <134> entry.c(17), 8 bytes at 0x12a7550  	{77 65 61 72 69 6E 67 00 .. .. .. .. .. .. .. .. wearing.}
+unfreed: <133> entry.c(16), 16 bytes at 0x12a74f0  	{50 75 2A 01 00 00 00 00 B0 75 2A 01 00 00 00 00 Pu*......u*.....}
+unfreed: <132> entry.c(21), 88000 bytes at 0x1291ca0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <131> entry.c(17), 2 bytes at 0x1291c40  	{6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. m.}
+unfreed: <130> entry.c(16), 16 bytes at 0x1291be0  	{40 1C 29 01 00 00 00 00 A0 1C 29 01 00 00 00 00 @.).......).....}
+unfreed: <129> entry.c(21), 88000 bytes at 0x127c390  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <128> entry.c(17), 6 bytes at 0x127c330  	{73 75 6E 6E 79 00 .. .. .. .. .. .. .. .. .. .. sunny.}
+unfreed: <127> entry.c(16), 16 bytes at 0x127c2d0  	{30 C3 27 01 00 00 00 00 90 C3 27 01 00 00 00 00 0.'.......'.....}
+unfreed: <126> entry.c(21), 88000 bytes at 0x1266a80  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <125> entry.c(17), 4 bytes at 0x1266a20  	{77 61 73 00 .. .. .. .. .. .. .. .. .. .. .. .. was.}
+unfreed: <124> entry.c(16), 16 bytes at 0x12669c0  	{20 6A 26 01 00 00 00 00 80 6A 26 01 00 00 00 00  j&......j&.....}
+unfreed: <123> entry.c(21), 88000 bytes at 0x1251170  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <122> entry.c(17), 10 bytes at 0x1251110  	{79 65 73 74 65 72 64 61 79 00 .. .. .. .. .. .. yesterday.}
+unfreed: <121> entry.c(16), 16 bytes at 0x12510b0  	{10 11 25 01 00 00 00 00 70 11 25 01 00 00 00 00 ..%.....p.%.....}
+unfreed: <120> entry.c(21), 88000 bytes at 0x123b860  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <119> entry.c(17), 4 bytes at 0x123b800  	{6F 75 74 00 .. .. .. .. .. .. .. .. .. .. .. .. out.}
+unfreed: <118> entry.c(16), 16 bytes at 0x123b7a0  	{00 B8 23 01 00 00 00 00 60 B8 23 01 00 00 00 00 ..#.....`.#.....}
+unfreed: <117> entry.c(21), 88000 bytes at 0x1225f50  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <116> entry.c(17), 8 bytes at 0x1225ef0  	{72 61 69 6E 69 6E 67 00 .. .. .. .. .. .. .. .. raining.}
+unfreed: <115> entry.c(16), 16 bytes at 0x1225e90  	{F0 5E 22 01 00 00 00 00 50 5F 22 01 00 00 00 00 .^".....P_".....}
+unfreed: <114> entry.c(21), 88000 bytes at 0x1210640  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <113> entry.c(17), 3 bytes at 0x12105e0  	{69 74 00 .. .. .. .. .. .. .. .. .. .. .. .. .. it.}
+unfreed: <112> entry.c(16), 16 bytes at 0x1210580  	{E0 05 21 01 00 00 00 00 40 06 21 01 00 00 00 00 ..!.....@.!.....}
+unfreed: <111> entry.c(21), 88000 bytes at 0x11fad30  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <110> entry.c(17), 6 bytes at 0x11facd0  	{57 57 54 57 4F 00 .. .. .. .. .. .. .. .. .. .. WWTWO.}
+unfreed: <109> entry.c(16), 16 bytes at 0x11fac70  	{D0 AC 1F 01 00 00 00 00 30 AD 1F 01 00 00 00 00 ........0.......}
+unfreed: <108> entry.c(21), 88000 bytes at 0x11e5420  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <107> entry.c(17), 6 bytes at 0x11e53c0  	{61 62 6F 75 74 00 .. .. .. .. .. .. .. .. .. .. about.}
+unfreed: <106> entry.c(16), 16 bytes at 0x11e5360  	{C0 53 1E 01 00 00 00 00 20 54 1E 01 00 00 00 00 .S...... T......}
+unfreed: <105> entry.c(21), 88000 bytes at 0x11cfb10  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <104> entry.c(17), 8 bytes at 0x11cfab0  	{74 61 6C 6B 69 6E 67 00 .. .. .. .. .. .. .. .. talking.}
+unfreed: <103> entry.c(16), 16 bytes at 0x11cfa50  	{B0 FA 1C 01 00 00 00 00 10 FB 1C 01 00 00 00 00 ................}
+unfreed: <102> entry.c(21), 88000 bytes at 0x11ba200  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <101> entry.c(17), 6 bytes at 0x11ba1a0  	{63 6C 61 73 73 00 .. .. .. .. .. .. .. .. .. .. class.}
+unfreed: <100> entry.c(16), 16 bytes at 0x11ba140  	{A0 A1 1B 01 00 00 00 00 00 A2 1B 01 00 00 00 00 ................}
+unfreed: <99> entry.c(21), 88000 bytes at 0x11a48f0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <98> entry.c(17), 8 bytes at 0x11a4890  	{68 69 73 74 6F 72 79 00 .. .. .. .. .. .. .. .. history.}
+unfreed: <97> entry.c(16), 16 bytes at 0x11a4830  	{90 48 1A 01 00 00 00 00 F0 48 1A 01 00 00 00 00 .H.......H......}
+unfreed: <96> entry.c(21), 88000 bytes at 0x118efe0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <95> entry.c(17), 4 bytes at 0x118ef80  	{66 6F 72 00 .. .. .. .. .. .. .. .. .. .. .. .. for.}
+unfreed: <94> entry.c(16), 16 bytes at 0x118ef20  	{80 EF 18 01 00 00 00 00 E0 EF 18 01 00 00 00 00 ................}
+unfreed: <93> entry.c(21), 88000 bytes at 0x11796d0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <92> entry.c(17), 10 bytes at 0x1179670  	{63 6C 61 73 73 72 6F 6F 6D 00 .. .. .. .. .. .. classroom.}
+unfreed: <91> entry.c(16), 16 bytes at 0x1179610  	{70 96 17 01 00 00 00 00 D0 96 17 01 00 00 00 00 p...............}
+unfreed: <90> entry.c(21), 88000 bytes at 0x1163dc0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <89> entry.c(17), 3 bytes at 0x1163d60  	{69 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. in.}
+unfreed: <88> entry.c(16), 16 bytes at 0x1163d00  	{60 3D 16 01 00 00 00 00 C0 3D 16 01 00 00 00 00 `=.......=......}
+unfreed: <87> entry.c(21), 88000 bytes at 0x114e4b0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <86> entry.c(17), 3 bytes at 0x114e450  	{61 6D 00 .. .. .. .. .. .. .. .. .. .. .. .. .. am.}
+unfreed: <85> entry.c(16), 16 bytes at 0x114e3f0  	{50 E4 14 01 00 00 00 00 B0 E4 14 01 00 00 00 00 P...............}
+unfreed: <84> entry.c(21), 88000 bytes at 0x1138ba0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <83> entry.c(17), 2 bytes at 0x1138b40  	{49 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. I.}
+unfreed: <82> entry.c(16), 16 bytes at 0x1138ae0  	{40 8B 13 01 00 00 00 00 A0 8B 13 01 00 00 00 00 @...............}
+unfreed: <81> entry.c(21), 88000 bytes at 0x1123290  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <80> entry.c(17), 5 bytes at 0x1123230  	{6E 69 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. nine.}
+unfreed: <79> entry.c(16), 16 bytes at 0x11231d0  	{30 32 12 01 00 00 00 00 90 32 12 01 00 00 00 00 02.......2......}
+unfreed: <78> entry.c(21), 88000 bytes at 0x110d980  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <77> entry.c(17), 5 bytes at 0x110d920  	{66 6F 75 72 00 .. .. .. .. .. .. .. .. .. .. .. four.}
+unfreed: <76> entry.c(16), 16 bytes at 0x110d8c0  	{20 D9 10 01 00 00 00 00 80 D9 10 01 00 00 00 00  ...............}
+unfreed: <75> entry.c(21), 88000 bytes at 0x10f8070  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <74> entry.c(17), 5 bytes at 0x10f8010  	{66 69 76 65 00 .. .. .. .. .. .. .. .. .. .. .. five.}
+unfreed: <73> entry.c(16), 16 bytes at 0x10f7fb0  	{10 80 0F 01 00 00 00 00 70 80 0F 01 00 00 00 00 ........p.......}
+unfreed: <72> entry.c(21), 88000 bytes at 0x10e2760  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <71> entry.c(17), 4 bytes at 0x10e2700  	{6F 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. .. one.}
+unfreed: <70> entry.c(16), 16 bytes at 0x10e26a0  	{00 27 0E 01 00 00 00 00 60 27 0E 01 00 00 00 00 .'......`'......}
+unfreed: <69> entry.c(21), 88000 bytes at 0x10cce50  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <68> entry.c(17), 5 bytes at 0x10ccdf0  	{4A 75 6E 65 00 .. .. .. .. .. .. .. .. .. .. .. June.}
+unfreed: <67> entry.c(16), 16 bytes at 0x10ccd90  	{F0 CD 0C 01 00 00 00 00 50 CE 0C 01 00 00 00 00 ........P.......}
+unfreed: <66> entry.c(21), 88000 bytes at 0x10b7540  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <65> entry.c(17), 4 bytes at 0x10b74e0  	{74 6F 64 00 .. .. .. .. .. .. .. .. .. .. .. .. tod.}
+unfreed: <64> entry.c(16), 16 bytes at 0x10b7480  	{E0 74 0B 01 00 00 00 00 40 75 0B 01 00 00 00 00 .t......@u......}
+unfreed: <63> entry.c(21), 88000 bytes at 0x10a1c30  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <62> entry.c(17), 3 bytes at 0x10a1bd0  	{69 73 00 .. .. .. .. .. .. .. .. .. .. .. .. .. is.}
+unfreed: <61> entry.c(16), 16 bytes at 0x10a1b70  	{D0 1B 0A 01 00 00 00 00 30 1C 0A 01 00 00 00 00 ........0.......}
+unfreed: <60> entry.c(21), 88000 bytes at 0x108c320  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <59> entry.c(17), 3 bytes at 0x108c2c0  	{61 79 00 .. .. .. .. .. .. .. .. .. .. .. .. .. ay.}
+unfreed: <58> entry.c(16), 16 bytes at 0x108c260  	{C0 C2 08 01 00 00 00 00 20 C3 08 01 00 00 00 00 ........ .......}
+unfreed: <57> entry.c(21), 88000 bytes at 0x1076a10  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <56> entry.c(17), 2 bytes at 0x10769b0  	{64 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. d.}
+unfreed: <55> entry.c(16), 16 bytes at 0x1076950  	{B0 69 07 01 00 00 00 00 10 6A 07 01 00 00 00 00 .i.......j......}
+unfreed: <54> entry.c(21), 88000 bytes at 0x1061100  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <53> entry.c(17), 7 bytes at 0x10610a0  	{6C 6F 79 6F 6C 61 00 .. .. .. .. .. .. .. .. .. loyola.}
+unfreed: <52> entry.c(16), 16 bytes at 0x1061040  	{A0 10 06 01 00 00 00 00 00 11 06 01 00 00 00 00 ................}
+unfreed: <51> entry.c(21), 88000 bytes at 0x104b7f0  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <50> entry.c(17), 3 bytes at 0x104b790  	{6F 66 00 .. .. .. .. .. .. .. .. .. .. .. .. .. of.}
+unfreed: <49> entry.c(16), 16 bytes at 0x104b730  	{90 B7 04 01 00 00 00 00 F0 B7 04 01 00 00 00 00 ................}
+unfreed: <48> entry.c(21), 88000 bytes at 0x1035f20  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <47> entry.c(17), 5 bytes at 0x1035ec0  	{77 6F 72 64 00 .. .. .. .. .. .. .. .. .. .. .. word.}
+unfreed: <46> entry.c(16), 16 bytes at 0x1034e20  	{C0 5E 03 01 00 00 00 00 20 5F 03 01 00 00 00 00 .^...... _......}
+unfreed: <45> client.c(54), 257 bytes at 0x1034cc0  	{73 68 6F 65 73 00 67 00 79 00 00 00 00 00 00 00 shoes.g.y.......}
+unfreed: <44> client.c(53), 6 bytes at 0x1034c60  	{31 2E 74 78 74 00 .. .. .. .. .. .. .. .. .. .. 1.txt.}
+unfreed: <43> stop_linked_list.c(14), 16 bytes at 0x1035c20  	{00 00 00 00 00 00 00 00 C0 5B 03 01 00 00 00 00 .........[......}
+unfreed: <42> stop_linked_list.c(40), 16 bytes at 0x1035bc0  	{00 5B 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .[..............}
+unfreed: <41> stop_word.c(15), 4 bytes at 0x1035b60  	{61 72 65 00 .. .. .. .. .. .. .. .. .. .. .. .. are.}
+unfreed: <40> stop_word.c(13), 8 bytes at 0x1035b00  	{60 5B 03 01 00 00 00 00 .. .. .. .. .. .. .. .. `[......}
+unfreed: <39> stop_linked_list.c(14), 16 bytes at 0x1035aa0  	{00 00 00 00 00 00 00 00 40 5A 03 01 00 00 00 00 ........@Z......}
+unfreed: <38> stop_linked_list.c(40), 16 bytes at 0x1035a40  	{80 59 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .Y..............}
+unfreed: <37> stop_word.c(15), 3 bytes at 0x10359e0  	{77 65 00 .. .. .. .. .. .. .. .. .. .. .. .. .. we.}
+unfreed: <36> stop_word.c(13), 8 bytes at 0x1035980  	{E0 59 03 01 00 00 00 00 .. .. .. .. .. .. .. .. .Y......}
+unfreed: <35> stop_linked_list.c(14), 16 bytes at 0x1035920  	{00 00 00 00 00 00 00 00 C0 58 03 01 00 00 00 00 .........X......}
+unfreed: <34> stop_linked_list.c(40), 16 bytes at 0x10358c0  	{00 58 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .X..............}
+unfreed: <33> stop_word.c(15), 3 bytes at 0x1035860  	{67 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. go.}
+unfreed: <32> stop_word.c(13), 8 bytes at 0x1035800  	{60 58 03 01 00 00 00 00 .. .. .. .. .. .. .. .. `X......}
+unfreed: <31> stop_linked_list.c(14), 16 bytes at 0x10357a0  	{00 00 00 00 00 00 00 00 40 57 03 01 00 00 00 00 ........@W......}
+unfreed: <30> stop_linked_list.c(40), 16 bytes at 0x1035740  	{80 56 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .V..............}
+unfreed: <29> stop_word.c(15), 4 bytes at 0x10356e0  	{61 6E 64 00 .. .. .. .. .. .. .. .. .. .. .. .. and.}
+unfreed: <28> stop_word.c(13), 8 bytes at 0x1035680  	{E0 56 03 01 00 00 00 00 .. .. .. .. .. .. .. .. .V......}
+unfreed: <27> stop_linked_list.c(14), 16 bytes at 0x1035620  	{00 00 00 00 00 00 00 00 C0 55 03 01 00 00 00 00 .........U......}
+unfreed: <26> stop_linked_list.c(40), 16 bytes at 0x10355c0  	{00 55 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .U..............}
+unfreed: <25> stop_word.c(15), 3 bytes at 0x1035560  	{61 6E 00 .. .. .. .. .. .. .. .. .. .. .. .. .. an.}
+unfreed: <24> stop_word.c(13), 8 bytes at 0x1035500  	{60 55 03 01 00 00 00 00 .. .. .. .. .. .. .. .. `U......}
+unfreed: <23> stop_linked_list.c(14), 16 bytes at 0x10354a0  	{00 00 00 00 00 00 00 00 40 54 03 01 00 00 00 00 ........@T......}
+unfreed: <22> stop_linked_list.c(40), 16 bytes at 0x1035440  	{80 53 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .S..............}
+unfreed: <21> stop_word.c(15), 2 bytes at 0x10353e0  	{61 00 .. .. .. .. .. .. .. .. .. .. .. .. .. .. a.}
+unfreed: <20> stop_word.c(13), 8 bytes at 0x1035380  	{E0 53 03 01 00 00 00 00 .. .. .. .. .. .. .. .. .S......}
+unfreed: <19> stop_linked_list.c(14), 16 bytes at 0x1035320  	{00 00 00 00 00 00 00 00 C0 52 03 01 00 00 00 00 .........R......}
+unfreed: <18> stop_linked_list.c(40), 16 bytes at 0x10352c0  	{00 52 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .R..............}
+unfreed: <17> stop_word.c(15), 3 bytes at 0x1035260  	{74 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. to.}
+unfreed: <16> stop_word.c(13), 8 bytes at 0x1035200  	{60 52 03 01 00 00 00 00 .. .. .. .. .. .. .. .. `R......}
+unfreed: <15> stop_linked_list.c(14), 16 bytes at 0x10351a0  	{00 00 00 00 00 00 00 00 40 51 03 01 00 00 00 00 ........@Q......}
+unfreed: <14> stop_linked_list.c(40), 16 bytes at 0x1035140  	{80 50 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .P..............}
+unfreed: <13> stop_word.c(15), 4 bytes at 0x10350e0  	{79 65 73 00 .. .. .. .. .. .. .. .. .. .. .. .. yes.}
+unfreed: <12> stop_word.c(13), 8 bytes at 0x1035080  	{E0 50 03 01 00 00 00 00 .. .. .. .. .. .. .. .. .P......}
+unfreed: <11> stop_linked_list.c(14), 16 bytes at 0x1035020  	{00 00 00 00 00 00 00 00 C0 4F 03 01 00 00 00 00 .........O......}
+unfreed: <10> stop_linked_list.c(40), 16 bytes at 0x1034fc0  	{00 4F 03 01 00 00 00 00 00 00 00 00 00 00 00 00 .O..............}
+unfreed: <9> stop_word.c(15), 3 bytes at 0x1034f60  	{6E 6F 00 .. .. .. .. .. .. .. .. .. .. .. .. .. no.}
+unfreed: <8> stop_word.c(13), 8 bytes at 0x1034f00  	{60 4F 03 01 00 00 00 00 .. .. .. .. .. .. .. .. `O......}
+unfreed: <7> stop_linked_list.c(14), 16 bytes at 0x1034ea0  	{00 00 00 00 00 00 00 00 F0 EA 01 01 00 00 00 00 ................}
+unfreed: <6> stop_linked_list.c(40), 16 bytes at 0x101eaf0  	{30 EA 01 01 00 00 00 00 00 00 00 00 00 00 00 00 0...............}
+unfreed: <5> stop_word.c(15), 4 bytes at 0x101ea90  	{74 68 65 00 .. .. .. .. .. .. .. .. .. .. .. .. the.}
+unfreed: <4> stop_word.c(13), 8 bytes at 0x101ea30  	{90 EA 01 01 00 00 00 00 .. .. .. .. .. .. .. .. ........}
+unfreed: <3> client.c(35), 88000 bytes at 0x101f450  	{60 4C 03 01 00 00 00 00 00 00 00 00 00 00 00 00 `L..............}
+unfreed: <2> hash_table.c(22), 560000 bytes at 0x7f24bb7e0050  	{00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................}
+unfreed: <1> hash_table.c(17), 16 bytes at 0x101e9d0  	{70 11 01 00 FE FE FE FE 50 00 7E BB 24 7F 00 00 p.......P.~.$...}
+
+Memory usage statistics (global):
+ N)umber of allocations made: 147
+ L)argest memory usage      : 3641429
+ T)otal of all alloc() calls: 3641429
+ U)nfreed bytes totals      : 3641429

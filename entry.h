@@ -9,7 +9,7 @@
 #include <string.h>
 #include <stdio.h>
 
-//#include "memwatch.h"
+#include "memwatch.h"
 
 struct entry *create_entry(char *key, char **documents);
 

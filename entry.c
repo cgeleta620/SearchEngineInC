@@ -17,14 +17,15 @@ struct entry *create_entry(char *key, char **documents) {
     temp->key = (char *) calloc(strlen(key) + 1, sizeof(char));
     strcpy(temp->key, key);
 
-    int q = 0;
-    for (; q < 9000; q++) {
-        temp->documents = (char **) malloc(256 * sizeof(char *));
-    }
+    
+      temp->documents = (char **) calloc(11000, sizeof(char *));
+ 
 
     int a = 0;
-    for (; a < 9000; a++) {
-        temp->documents[a] = documents[a];
+    for (; a < 11000; a++) {
+      
+	temp->documents[a] = documents[a];
+      
     }
 
     return temp;

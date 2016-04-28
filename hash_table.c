@@ -71,6 +71,7 @@ Table *delete_item(Table *t, struct entry *entry) {
     int pos = 0;
     pos = hash(t, get_key(entry));
     t->table[pos] = list_delete(t->table[pos], entry);
+    t->table[pos] = NULL;
 
     return t;
 
