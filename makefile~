@@ -1,0 +1,7 @@
+all: search
+
+search: client.o linked_list.o entry.o hash_table.o stop_word.o stop_table.o linked_list_stop.o memwatch.o
+	gcc -o search client.o linked_list.o entry.o hash_table.o stop_word.o stop_table.o linked_list_stop.o memwatch.o
+
+client.o: client.c client.h
+	gcc -c -g client.c -Wall -DMEMWATCH -DMW_STDIO

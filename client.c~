@@ -1,0 +1,181 @@
+//
+// Created by Christopher Geleta on 4/15/16
+//
+
+#include "client.h"
+
+int main(int argc, char *argv[]) {
+    process(argc, argv);
+    return 0;
+}
+
+void process(int argc, char *argv[]) {
+
+    printf("Begin\n\n");
+
+    char *file_name = NULL;
+    char *stop_file = NULL;
+    char *file_arr[argc];
+    Table *t = create_table(700000);
+    Stop_table *stop_table = create_table_stop(900);
+
+    if (argc < 1) {
+        fprintf(stderr, "Not enough arguments\n");
+    }
+    else {
+
+        stop_file = argv[1];
+
+        int q = 2;
+        int s = 0;
+        for (; q < argc; q++, s++) {
+            file_arr[s] = argv[q];
+        }
+
+        char *arr[9000];
+        int g = 0;
+        for (; g < 9000; g++) {
+            arr[g] = NULL;
+        }
+
+        create_stop_table(stop_file, stop_table);
+
+        int file_count = 0;
+        int num_file = argc - 2;
+        int found_stop = 0;
+        int found_word = 0;
+
+        while (file_count < num_file) {
+
+            file_name = strdup(file_arr[file_count]);
+            char *buffer = (char *) calloc(256 + 1, sizeof(char));
+            FILE *in;
+            in = fopen(file_name, "r");
+
+            if (in == NULL) {
+                fprintf(stderr, "NULL\n");
+            }
+
+            while (fscanf(in, "%s", buffer) != EOF) {
+
+                int p = 0;
+                while (buffer[p] != '\0') {
+                    if (isalpha(buffer[p]) == 0) {
+                        buffer[p] = ' ';
+                    }
+                    p++;
+                }
+                struct entry *entry = NULL;
+                char *token;
+                char *token_arr[3000];
+                token = strtok(buffer, " ");
+
+                int k = 0;
+                while (token != NULL) {
+                    token_arr[k] = token;
+                    k++;
+                    token = strtok(NULL, " ");
+                }
+
+                int v = 0;
+                while (token_arr[v] != NULL) {
+                    found_stop = search_stop(stop_table, token_arr[v]);
+                    found_word = search_table(t, token_arr[v]);
+                    if (found_stop == 0) {
+                        if (found_word == 0) {
+                            arr[0] = file_name;
+                            entry = NULL;
+                            entry = create_entry(token_arr[v], arr);
+                            t = insert(t, entry);
+
+                        }
+                        else {
+
+                            struct entry *tmp = NULL;
+                            tmp = get_entry_from_table(t, token_arr[v]);
+                            char **the_docs;
+
+                            the_docs = get_docs(tmp);
+                            qsort(the_docs, sizeof(the_docs) / sizeof(the_docs[0]), sizeof(char *), str_cmp);
+
+                            int *item;
+                            item = (int *) bsearch(&file_name, the_docs, sizeof(the_docs) / sizeof(the_docs[0]),
+                                                   sizeof(char *), str_cmp);
+
+                            if (item == NULL) {
+                                int z = 0;
+                                for (; z < 9000; z++) {
+
+                                    if ((the_docs[z] == NULL)) {
+                                        the_docs[z] = file_name;
+                                        break;
+                                    }
+                                }
+
+                                t = delete_item(t, tmp);
+                                struct entry *new = NULL;
+                                new = create_entry(token_arr[v], the_docs);
+                                t = insert(t, new);
+                            }
+                        }
+                    }
+                    v++;
+                }
+            }
+
+            fclose(in);
+            file_count++;
+        }
+        //table_dump(t);
+
+        char str1[256];
+        printf("\nEnter query (ctrl - D to quit) \n");
+        scanf("%s", str1);
+
+        int found_word2 = 0;
+        while (strcmp(str1, "q") != 0) {
+
+            struct entry *tmp2 = NULL;
+            found_word2 = search_table(t, str1);
+            if (found_word2 != 0) {
+                tmp2 = get_entry_from_table(t, str1);
+                char **the_doc_list = get_docs(tmp2);
+                int y = 0;
+                for (; y < 1000; y++) {
+                    if (the_doc_list[y] != NULL) {
+                        printf("%s ", the_doc_list[y]);
+                    }
+                }
+            }
+
+            printf("\nEnter query (ctrl - D to quit) \n");
+            scanf("%s", str1);
+
+        }
+
+
+    }
+
+}
+
+void create_stop_table(const char *stop_file, Stop_table *stop_table) {
+
+    char buffer_stop[256];
+    FILE *stop;
+    stop = fopen(stop_file, "r");
+
+    while (fscanf(stop, "%s", buffer_stop) != EOF) {
+        struct stop_word *stop_entry = NULL;
+        stop_entry = create_stop_word(buffer_stop);
+        stop_table = insert_stop(stop_table, stop_entry);
+    }
+    fclose(stop);
+}
+
+int str_cmp(const void *a, const void *b) {
+    char const **char_a = a;
+    char const **char_b = b;
+
+    return strcmp(*char_a, *char_b);
+}
+
