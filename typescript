@@ -1,0 +1,39 @@
+Script started on Thu 28 Apr 2016 05:07:15 PM EDT
+]0;eudora:/home/cgeleta/cs302/prjSix/project6[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> search stop_file.txt 1.txt 2.txt 3.txt
+Begin
+
+
+Enter query (Ctrl - D to quit) 
+class
+1.txt 
+Enter query (Ctrl - D to quit) 
+you
+2.txt 
+Enter query (Ctrl - D to quit) 
+one
+1.txt 
+Enter query (Ctrl - D to quit) 
+the
+
+Enter query (Ctrl - D to quit) 
+is
+
+Enter query (Ctrl - D to quit) 
+it
+
+Enter query (Ctrl - D to quit) 
+morning
+
+Enter query (Ctrl - D to quit) 
+historu y
+1.txt 
+Enter query (Ctrl - D to quit) 
+1.txt 
+
+
+End
+MEMWATCH detected 369 anomalies
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> exit
+exit
+
+Script done on Thu 28 Apr 2016 05:09:16 PM EDT

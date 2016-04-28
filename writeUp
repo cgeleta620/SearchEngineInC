@@ -1,0 +1,2 @@
+So I discovered an issue that we didn't find in your office... The table was being set to 70,000 instead of 700,000 like
+I expected. However when I do run it on your 9,000 documents it does crash around 5,000 everytime I tried and it takes about a minute to get to 5,000. However the good news is that it works on a short list of test documents that i made to test it with. Secondly I didn't have time to do the memory managment and the prgram does not support multiple queries and you must press CTRL-D twice for it to exit.

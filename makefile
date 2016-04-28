@@ -1,7 +1,7 @@
 all: search
 
 search: client.o linked_list.o entry.o hash_table.o stop_word.o stop_table.o stop_linked_list.o memwatch.o
-	gcc -O0 -pg -o search -g client.o linked_list.o entry.o hash_table.o stop_word.o stop_table.o stop_linked_list.o memwatch.o
+	gcc -O0 -pg -o search -g client.o linked_list.o entry.o hash_table.o stop_word.o stop_table.o stop_linked_list.o memwatch.o -Wall -DMEMWATCH -DMW_STDIO
 
 client.o: client.c client.h
 	gcc -c -g client.c -Wall -DMEMWATCH -DMW_STDIO

@@ -1,0 +1,109 @@
+Script started on Thu 28 Apr 2016 05:06:19 PM EDT
+]0;eudora:/home/cgeleta/cs302/prjSix/project6[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> search stop_file.txt 1.txt 2.txt 3.txt
+Begin
+
+0
+1
+2
+
+Enter query (Ctrl - D to quit) 
+
+
+
+End
+MEMWATCH detected 369 anomalies
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> rm typescript 
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> make
+gcc -c -g client.c -Wall -DMEMWATCH -DMW_STDIO
+client.c: In function ‘str_cmp’:
+client.c:223:21: warning: initialization discards ‘const’ qualifier from pointer target type [enabled by default]
+client.c:224:21: warning: initialization discards ‘const’ qualifier from pointer target type [enabled by default]
+gcc -O0 -pg -o search -g client.o linked_list.o entry.o hash_table.o stop_word.o stop_table.o stop_linked_list.o memwatch.o -Wall -DMEMWATCH -DMW_STDIO
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> script
+Script started, file is typescript
+]0;eudora:/home/cgeleta/cs302/prjSix/project6[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> search stop_file.txt 1.txt 2.txt 3.txt
+Begin
+
+
+Enter query (Ctrl - D to quit) 
+class
+1.txt 
+Enter query (Ctrl - D to quit) 
+you
+2.txt 
+Enter query (Ctrl - D to quit) 
+one
+1.txt 
+Enter query (Ctrl - D to quit) 
+the
+
+Enter query (Ctrl - D to quit) 
+is
+
+Enter query (Ctrl - D to quit) 
+it
+
+Enter query (Ctrl - D to quit) 
+morning
+
+Enter query (Ctrl - D to quit) 
+historu y
+1.txt 
+Enter query (Ctrl - D to quit) 
+1.txt 
+
+
+End
+MEMWATCH detected 369 anomalies
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> exit
+exit
+Script done, file is typescript
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> ld
+ld: no input files
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> ls
+1.txt	   docs		 hash_table.h	  makefile~	stop_file.txt	    stop_word.c
+2.txt	   entry.c	 hash_table.o	  memwatch.c	stop_linked_list.c  stop_word.h
+3.txt	   entry.c~	 linked_list.c	  memwatch.h	stop_linked_list.h  stop_word.o
+client.c   entry.h	 #linked_list.h#  memwatch.log	stop_linked_list.o  typescript
+client.c~  entry.o	 linked_list.h	  memwatch.o	stop_table.c	    writeUp
+client.h   gmon.out	 linked_list.o	  search	stop_table.h
+client.o   hash_table.c  makefile	  stats		stop_table.o
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> rm -R docs/*
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual-l[K[K -l[K![K1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_l
+linked_list.c  linked_list.h  linked_list.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hs[Kas
+hash_table.c  hash_table.h  hash_table.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c has
+hash_table.c  hash_table.h  hash_table.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makef
+makefile~  makefile   
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefilewri[K[K[K writeUp  typescript [Ptypes[P[1@ typescript mem
+memwatch.c    memwatch.h    memwatch.log  memwatch.o    
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log gmon[K[K[K[Kstats[Ks st
+stats               stop_linked_list.h  stop_table.h        stop_word.h         
+stop_file.txt       stop_linked_list.o  stop_table.o        stop_word.o         
+stop_linked_list.c  stop_table.c        stop_word.c         
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop
+stop_file.txt       stop_linked_list.h  stop_table.c        stop_table.o        stop_word.h 
+stop_linked_list.c  stop_linked_list.o  stop_table.h        stop_word.c         stop_word.o 
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_w
+stop_word.c  stop_word.h  stop_word.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop
+stop_file.txt       stop_linked_list.h  stop_table.c        stop_table.o        stop_word.h 
+stop_linked_list.c  stop_linked_list.o  stop_table.h        stop_word.c         stop_word.o 
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_w
+stop_word.c  stop_word.h  stop_word.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_word.c stop_l
+stop_linked_list.c  stop_linked_list.h  stop_linked_list.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_word.c stop_linked_list.c stop_l
+stop_linked_list.c  stop_linked_list.h  stop_linked_list.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_word.c stop_linked_list.c stop_linked_list.h stop_tab
+stop_table.c  stop_table.h  stop_table.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_word.c stop_linked_list.c stop_linked_list.h stop_table.c stop
+stop_file.txt       stop_linked_list.h  stop_table.c        stop_table.o        stop_word.h 
+stop_linked_list.c  stop_linked_list.o  stop_table.h        stop_word.c         stop_word.o 
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_word.c stop_linked_list.c stop_linked_list.h stop_table.c stop_tab
+stop_table.c  stop_table.h  stop_table.o  
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_word.c stop_linked_list.c stop_linked_list.h stop_table.c stop_table.h
+asps: Command not found.
+[[1mcgeleta@eudora[0m]:[1m~/cs302/prjSix/project6[0m> asps -q -Avirtual -1 -o mycode.ps entry.c entry.h client.c c lient.h linked_list.c linked_list.h hash_table.c hash_table.h makefile writeUp typescript memwatch.log  stats stop_word.h stop_word.c stop_linked_list.c stop_linked_list.h stop_table.c stop_table.h[2A[43Grm -R docs/*[K[102G l

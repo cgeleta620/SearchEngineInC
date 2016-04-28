@@ -17,7 +17,7 @@ void process(int argc, char *argv[]) {
     char *stop_file = NULL;
     char *file_arr[argc];
     Stop_table *stop_table = create_table_stop(900);
-    Table *t = create_table(70000);
+    Table *t = create_table(1000000);
 
     if (argc < 1) {
         fprintf(stderr, "Not enough arguments\n");
@@ -48,7 +48,7 @@ void process(int argc, char *argv[]) {
         int found_word = 0;
 
         while (file_count < num_file) {
-	  //	printf("test 9\n");
+	  // printf("%d\n", file_count);
 
             file_name = strdup(file_arr[file_count]);
             char *buffer = (char *) calloc(256 + 1, sizeof(char));
@@ -105,9 +105,7 @@ void process(int argc, char *argv[]) {
 			    //	printf("Test 6.2\n");
 
                             t = insert(t, entry);
-			    //	printf("Test 6.5\n");
-
-
+			    // printf("Test 6.5\n");
                         }
                         else {
 			  //		printf("Test 7\n");
